@@ -19,7 +19,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 0;
 }
 
 .top-index__header-logo{
@@ -29,27 +28,37 @@ body {
 }
 
 .top-index__header-nav{
+    font-family: YuGothic;
     width: 60%;
     list-style: none;
     display: flex;
     color: #949494;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: baseline;
+    margin: 0;
 }
 
 .top-index__header-nav-list{
     font-size: 1.4rem;
     white-space: nowrap;
+    padding-right: 5%;
 }
 
 .top-index__header-nav-contact{
     font-size: 1.4rem; 
+    background-color: black;
+    color: #ffffff;
     white-space: nowrap;
     text-align: center;
     border: 1px solid #BDBDBD;
     border-color: #949494;
-    padding: 1% 3%;
+    padding: 1% 1.2%;
+}
+
+.top-index__header-nav-contact__image{
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 .top-index__main{
