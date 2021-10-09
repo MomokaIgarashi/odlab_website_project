@@ -17,18 +17,23 @@
 <body>
         <header>
             <div class="top-index__header-inner">
-                <img class="top-index__header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/main-logo.svg" alt="">
+                <img class="top-index__header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/main-logo.svg" alt="odlab-logo">
                 <ul class="top-index__header-nav">
                     <li class="top-index__header-nav-list">
                         <a href="<?= esc_url(home_url('/about'));?>">ODLabについて</a>
                     </li>
                     <!-- <li class="top-index__header-nav-list">サービス</li>
-                    <li class="top-index__header-nav-list">事例紹介</li>
-                    <li class="top-index__header-nav-list">メンバー紹介</li>
-                    <li class="top-index__header-nav-list">出版物</li>
+                    <li class="top-index__header-nav-list">事例紹介</li> -->
+                    <li class="top-index__header-nav-list">
+                        <a href="<?= esc_url(home_url('/members'));?>">メンバー紹介</a>
+                    </li>
+                    <!-- <li class="top-index__header-nav-list">出版物</li>
                     <li class="top-index__header-nav-list">お知らせ</li> -->
                     <li class="top-index__header-nav-contact">
-                        <a href="<?= esc_url(home_url('/contact'));?>">お問いあわせ</a>
+                        <a href="<?= esc_url(home_url('/contact'));?>">
+                            <img class="top-index__header-nav-contact__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/header-mail-icon.svg" alt="header-contact">
+                            <p class="top-index__header-nav-contact__text">お問い合わせ</p>
+                        </a>
                     </li>
                 </ul>
             </div>
