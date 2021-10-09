@@ -13,6 +13,12 @@ function add_stylesheet() {
         array('reset'),
         '1.0'
     );
+    wp_enqueue_style(
+        'members',
+        get_template_directory_uri().'/assets/styles/members.css',
+        array('reset'),
+        '1.0'
+    );
 }
 add_action('wp_enqueue_scripts', 'add_stylesheet');
 
