@@ -4,6 +4,11 @@ html {
     font-size: 62.5%; 
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body {
     font-family: "Hiragino Mincho Pro","Times New Roman";
     margin: 0;
