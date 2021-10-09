@@ -18,13 +18,17 @@
             <div class="top-index__header-inner">
                 <img class="top-index__header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/main-logo.svg" alt="">
                 <ul class="top-index__header-nav">
-                    <li class="top-index__header-nav-list">ODLabについて</li>
-                    <li class="top-index__header-nav-list">サービス</li>
+                    <li class="top-index__header-nav-list">
+                        <a href="<?= esc_url(home_url('/about'));?>">ODLabについて</a>
+                    </li>
+                    <!-- <li class="top-index__header-nav-list">サービス</li>
                     <li class="top-index__header-nav-list">事例紹介</li>
                     <li class="top-index__header-nav-list">メンバー紹介</li>
                     <li class="top-index__header-nav-list">出版物</li>
-                    <li class="top-index__header-nav-list">お知らせ</li>
-                    <li class="top-index__header-nav-contact">お問い合わせ</li>
+                    <li class="top-index__header-nav-list">お知らせ</li> -->
+                    <li class="top-index__header-nav-contact">
+                        <a href="<?= esc_url(home_url('/contact'));?>">お問いあわせ</a>
+                    </li>
                 </ul>
             </div>
         </header>
