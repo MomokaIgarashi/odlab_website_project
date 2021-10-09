@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+.contact__main-title{
+    font-size: 4.8rem;
+    font-weight: bold;
+    margin-left: 10%;
+    padding: 5% 0;
+}
+
+.contact-form-wrapper{
+    width: 90%;
+    background-color: #F2F7F6;
+    margin-left: 10%;
+}
+
+.contact__menu--inner{
+    text-align: center;
+    margin-right: 10%
+}
+
+.contact__image-process{
+    width: 25%;
+    height: auto;
+    padding: 8% 0
+}
+
+.contact__description__1{
+    font-size: 1.6rem;
+    margin-bottom: 5%;
+}
+
+/* ↓コンタクトフォーム中身 */
+
+#text{
+    font-size: 1.6rem;
+}
+
+.error{
+    font-size: 1.6rem;
+}
+
+.mw_wp_form_confirm {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.mw_wp_form_error {
+    font-size: 1.6rem;
+}
+
+.mw_wp_form_complete {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.contact-form__inner{
+    margin-left: 10%;
+}
+
+.contact-menu{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-list{
+    display: flex;
+    width: 100%;
+    padding: 2% 0;
+}
+
+.contact-title-wrapper{
+    display: flex;
+    width: 30%;
+}
+
+.contct-content-wrapper{
+    width: 70%;
+}
+
+.contact-category-wrapper{
+    width: 70%;
+    display: flex;
+}
+
+.contact__category{
+    margin-right: 3%;
+}
+
+/* input.category-check-box{
+    color: #0AC8BD;
+    border: none;
+} */
+
+.mwform-checkbox-field{
+    padding: 1% 0;
+} 
+
+.vertical-item{
+    font-size: 1.6rem;
+}
+
+.hissu{
+    padding: 1%;
+    color: #CE2A2A;
+    font-size: 1.2rem;
+    border: 1px solid #CE2A2A;
+    border-radius: 4px;
+    height: fit-content;
+}
+
+.nini{
+    color: #949494;
+    padding: 1%;
+    font-size: 1.2rem;
+    border: 1px solid #949494;
+    border-radius: 4px;
+    height: fit-content;
+}
+
+.contact-title{
+    font-size: 1.6rem;
+    padding: 0 3%;
+}
+
+.contact-box{
+    width: 70%;
+    padding: 2%;
+    background-color: #ffffff;
+    border: #ffffff;
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
+
+.contact-content{
+    width: 70%;
+    padding: 3% 1% 2% 3%;
+    background-color: #ffffff;
+    border: #ffffff;
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
+
+.select-box{
+    width: 70%;
+    padding: 2%;
+    background-color: #ffffff;
+    border: #ffffff;
+    border-radius: 4px;
+    font-size: 1.6rem;
+}
+
+.contact__privacy--text{
+    margin-left: 18%;
+    font-size: 1.6rem;
+    padding: 5% 0 2% 0;
+}
+
+.contact__privacy--menu{
+    color: #0AC8BD;
+    padding: 3% 0;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.contact-confirm-button{
+    width: 25%;
+    text-align: center;
+    margin: 5% 0;
+    padding: 2% 3%;
+    border-radius: 70px;
+    background-color: #0AC8BD;
+    color: #ffffff;
+    margin-left: 25%;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.contact-back-button{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 2% 3%;
+    border-radius: 70px;
+    background-color: #949494;
+    color: #ffffff;
+    margin-left: 25%;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.contact-backtotop-button{
+    margin: 5% 0;
+    padding: 2% 5%;
+    border-radius: 70px;
+    background-color: #0AC8BD;
+    color: #ffffff;
+    margin-left: 25%;
+    border: none;
+    font-size: 1.6rem;
+}
+
+.contact__error-pc{
+    width: 75%;
+    height: auto;
+    margin: 5% 0 3% 10%;
+}
