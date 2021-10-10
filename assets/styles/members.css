@@ -144,6 +144,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
+    align-items: flex-start;
 }
 
 .members-page__works-image {
@@ -152,7 +153,7 @@ ul {
 
 .members-page__main-section__works-title {
     overflow-wrap: normal;
-    width: 56%;
+    width: 58%;
     font-weight: 700;
     line-height: 2.1rem;
     letter-spacing: 0.001em;
@@ -204,5 +205,64 @@ ul {
     display: block;
 }
 
+.members-partner {
+    background-color: #f2f7f6;
+    padding: 0 260px;
+}
 
+.members-partner__main-title {
+    color: #848484;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.0015em;
+    padding: 104px 0 45px;
+}
 
+.members-partner__outline-list {
+    display: flex;
+    margin-bottom: 54px;
+    align-items: flex-start;
+}
+
+.members-page__partner-image {
+    height: auto;
+}
+
+.members-partner__profile {
+    margin-left: 32px;
+    font-family: "Hiragino Mincho Pro";
+    color: #333;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.0025em;
+}
+
+.members-partner__title {
+    margin: 0;
+}
+
+.members-partner__title-scholar {
+    margin-top: 8%;
+}
+
+.members-partner__js-name {
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 0.0015em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.members-partner__en-name {
+    line-height: 1.5rem;
+    letter-spacing: 0.0015em;
+    margin: 0;
+}
+
+.members-partner__detail {
+    margin-top: 8px;
+}
+
+.members-partner__detail-fujita {
+    margin-top: 4%;
+}

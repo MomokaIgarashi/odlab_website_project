@@ -89,26 +89,31 @@
             </section>
         </div>
         <div class="members-partner">
-            <ul class="members-partner__outline">
-                <li class="members-partner__outline-list">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner1.png" class="members-page__partner-image" alt="SCHOLAR CONSULT">
-                    <h5 class="members-partner__title">パートナー</h5>
-                    <p class="members-partner__js-name">スコラ・コンサルタント</p>
-                    <p class="members-partner__en-name">SCHOLAR CONSULT</p>
-                    <p class="members-partner__detail">組織風土の変革、新しい組織文化の創造をサポートするスコラ・コンサルト組織風土改革のパイオニアとして、大企業から中小企業までの組織の変革をご支援いたします。</p>
-                </li>
-                <li class="members-partner__outline-list">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner2.png" class="members-page__partner-image" alt="FUJITA HARUNO">
-                    <h5 class="members-partner__title">パートナー / テクスト株式会社 代表取締役</h5>
-                    <p class="members-partner__js-name">藤田 ハルノ</p>
-                    <p class="members-partner__en-name">FUJITA HARUNO</p>
-                    <p class="members-partner__detail">国際基督教大学 教養学部 国際関係学科を卒業後、知的資本経営を掲げる株式会社 ICMG にコンサルタント職として入社。
-                        一般社団法人 Japan Innovation Network の立ち上げ、企業の新規事業創造エコシステムのデザインプロジェクトに関わったのち、
-                        ミラノにある大学院ドムスアカデミーのビジネスデザイン修士へ留学。
-                        その後、言葉のにわづくりをコンセプトとして、テクスト株式会社を創業し、言葉を可視化することでコミュニケーションを支援するグラフィックスキルや、
-                        複雑な関係性を紐解くコンステーレーションといったアプローチを用いてファシリテーターとして活動。</p>
-                </li>
-            </ul>
+            <h1 class="members-partner__main-title">パートナー</h1>
+                <ul class="members-partner__outline">
+                    <li class="members-partner__outline-list">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner1.png" class="members-page__partner-image" alt="SCHOLAR CONSULT">
+                        <span class="members-partner__profile">
+                            <h5 class="members-partner__title members-partner__title-scholar">パートナー</h5>
+                            <p class="members-partner__js-name">スコラ・コンサルタント</p>
+                            <p class="members-partner__en-name">SCHOLAR CONSULT</p>
+                            <p class="members-partner__detail">組織風土の変革、新しい組織文化の創造をサポートするスコラ・コンサルト<br>組織風土改革のパイオニアとして、大企業から中小企業までの組織の変革をご支援いたします。</p>
+                        </span>
+                    </li>
+                    <li class="members-partner__outline-list">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner2.png" class="members-page__partner-image" alt="FUJITA HARUNO">
+                        <span class="members-partner__profile">
+                            <h5 class="members-partner__title">パートナー / テクスト株式会社 代表取締役</h5>
+                            <p class="members-partner__js-name">藤田 ハルノ</p>
+                            <p class="members-partner__en-name">FUJITA HARUNO</p>
+                            <p class="members-partner__detail-fujita">国際基督教大学 教養学部 国際関係学科を卒業後、知的資本経営を掲げる株式会社 ICMG にコンサルタント職として入社。
+                                一般社団法人 Japan Innovation Network の立ち上げ、企業の新規事業創造エコシステムのデザインプロジェクトに関わったのち、
+                                ミラノにある大学院ドムスアカデミーのビジネスデザイン修士へ留学。
+                                その後、言葉のにわづくりをコンセプトとして、テクスト株式会社を創業し、言葉を可視化することでコミュニケーションを支援するグラフィックスキルや、
+                                複雑な関係性を紐解くコンステーレーションといったアプローチを用いてファシリテーターとして活動。</p>
+                        </span>
+                        </li>
+                </ul>
         <div>
         
 
