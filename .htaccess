@@ -1,0 +1,20 @@
+SetEnvIf Request_URI ".*" AllowForeignWpLogin
+SetEnvIf Request_URI ".*" UnlimitedWpLogin
+SetEnvIf Request_URI ".*" AllowForeignXmlrpc
+SetEnvIf Request_URI ".*" AllowForeignRestApi
+
+# BEGIN LiteSpeed
+# "BEGIN LiteSpeed" から "END LiteSpeed" までのディレクティブ (行) は
+# 動的に生成され、WordPress フィルターによってのみ修正が可能です。
+# これらのマーカー間にあるディレクティブへのいかなる変更も上書きされてしまいます。
+<IfModule Litespeed>
+SetEnv noabort 1
+</IfModule>
+# END LiteSpeed
+
+# authenticate(Basic)
+AuthUserFile /test.odlab.co.jp/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user

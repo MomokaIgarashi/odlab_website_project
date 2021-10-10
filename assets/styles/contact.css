@@ -147,6 +147,7 @@
     border: #ffffff;
     border-radius: 4px;
     font-size: 1.6rem;
+    box-sizing: unset;
 }
 
 .contact__privacy--text{
@@ -205,4 +206,8 @@
     width: 75%;
     height: auto;
     margin: 5% 0 3% 10%;
+}
+
+@media (max-width: 600px) {
+
 }
