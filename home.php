@@ -18,13 +18,13 @@
             <section class="members-page__main-outline">
                 <ul class="members-page__main-section">
                     <li class="members-page__main-section--list">
-                        <h3　class="members-page__main-section__title">経歴</h3>
+                        <h3 class="members-page__main-section__title">経歴</h3>
                         <p class="members-page__main-section__career-detail">青山学院大学院 社会情報学部　ヒューマンイノベーション学科修士課程修了。野村證券を経て、東京電力の新規事業としての子会社３社の事業会社の立ち上げ、事業拡大の経験の中、企業変革の重要性を感じスコラ・コンサルトへ。2008年より2015年までスコラ・コンサルトの代表を務めたのち、独立。ODNJでは「理事」および「研究会委員長」を務め、「組織開発基礎講座」も担当。</p>
                     </li>
                     <li class="members-page__main-section--list">
                         <h3 class="members-page__main-section__title">強み</h3>
                         <ul class="members-page__main-section__strength">
-                            <li class="members-page__main-section__strenght-list">日本を代表する大企業の組織開発や組織変革の多数の実績</li>
+                            <li class="members-page__main-section__strength-list">日本を代表する大企業の組織開発や組織変革の多数の実績</li>
                             <li class="members-page__main-section__strength-list">役員チームや事業リーダー層など、社内の人間だけでは関わることが難しいトップ層への関わりの実績多数</li>
                             <li class="members-page__main-section__strength-list">企業内における組織開発コーディネーターの養成</li>
                         </ul>
@@ -45,34 +45,40 @@
                     </li>
                     <li class="members-page__main-section--list">
                         <h3 class="members-page__main-section__title">実績</h3>
-                        <div class="members-page__main-section__works">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works1.png" class="members-page__works-image" alt="works1">
-                            <h4>次世代経営者育成・経営チームづくり</h4>
-                            <p>IT企業、物流、電力、アパレルメーカー、半導体測定機メーカー、情報サービス業、通信ネットワーク業、機械メーカー、</p>
-                        </div>
-                        <div class="members-page__main-section__works">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works2.png" class="members-page__works-image" alt="works2">
-                            <h4>組織開発支援</h4>
-                            <p>総合商社、総合化学メーカー、飲食業、損害保険業、IT企業、総合人材サービス業、生活協同組合、電機メーカー</p>
-                        </div>
-                        <div class="members-page__main-section__works">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works3.png" class="members-page__works-image" alt="works3">
-                            <h4>マネジャー育成、変革リーダー育成</h4>
-                            <p>自動車メーカー、精密機器メーカー、医薬品メーカー、総合商社、飲料メーカー、損害保険業、不動産、総合商社、銀行、電機メーカー</p>
-                        </div>
-                        <div class="members-page__main-section__works">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works4.png" class="members-page__works-image" alt="works4">
-                            <h4>ダイバーシティ推進・ビジョン浸透・自律型組織</h4>
-                            <p>IT企業、飲食業、物流、生活協同組合、総合人材サービス業</p>
-                        </div>
+                        <span class="members-page__main-section__works-wrap">
+                            <div class="members-page__main-section__works">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works1.png" class="members-page__works-image" alt="works1">
+                                <h4 class="members-page__main-section__works-title">次世代経営者育成・経営チームづくり</h4>
+                                <p class="members-page__main-section__works-text">IT企業、物流、電力、アパレルメーカー、半導体測定機メーカー、情報サービス業、通信ネットワーク業、機械メーカー、</p>
+                            </div>
+                            <div class="members-page__main-section__works">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works2.png" class="members-page__works-image" alt="works2">
+                                <h4 class="members-page__main-section__works-title">組織開発支援</h4>
+                                <p class="members-page__main-section__works-text">総合商社、総合化学メーカー、飲食業、損害保険業、IT企業、総合人材サービス業、生活協同組合、電機メーカー</p>
+                            </div>
+                            <div class="members-page__main-section__works">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works3.png" class="members-page__works-image" alt="works3">
+                                <h4 class="members-page__main-section__works-title">マネジャー育成、変革リーダー育成</h4>
+                                <p class="members-page__main-section__works-text">自動車メーカー、精密機器メーカー、医薬品メーカー、総合商社、飲料メーカー、損害保険業、不動産、総合商社、銀行、電機メーカー</p>
+                            </div>
+                            <div class="members-page__main-section__works">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works4.png" class="members-page__works-image" alt="works4">
+                                <h4 class="members-page__main-section__works-title">ダイバーシティ推進・ビジョン浸透・自律型組織</h4>
+                                <p class="members-page__main-section__works-text">IT企業、飲食業、物流、生活協同組合、総合人材サービス業</p>
+                            </div>
+                        </span>
                     </li>
                     <li>
-                        <h3　class="members-page__main-description__title">著書</h3>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works4.png" class="" alt="works4">
-                        <p>クロネコヤマト人の育て方</p>
-                        <p>著者　水迫洋子</p>
-                        <p>発行　KADOKAWA／中経出版（2015年）</p>
-                        <a href="" target="_blank">Amazon</a>
+                        <h3 class="members-page__main-section__title">著書</h3>
+                        <div class="members-page__main-section__puiblish">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/book.png" class="members-page__publish-image" alt="book">
+                            <span class="members-page__main-section__puiblish-detail">
+                                <h4 class="members-page__main-section__puiblish-title">クロネコヤマト人の育て方</h4>
+                                <p class="members-page__main-section__puiblish-text">著者　水迫洋子</p>
+                                <p class="members-page__main-section__puiblish-text">発行　KADOKAWA／中経出版<br>（2015年）</p>
+                                <a href="https://www.amazon.co.jp/-/en/%E6%B0%B4%E8%BF%AB-%E6%B4%8B%E5%AD%90-ebook/dp/B00SSLFRXI/ref=sr_1_1?dchild=1&keywords=%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B3%E3%83%A4%E3%83%9E%E3%83%88%E3%81%AE%E4%BA%BA%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9&qid=1633749791&sr=8-1" target="_blank" class="members-page__main-section__puiblish-link">Amazon</a>
+                            </span>
+                        </div>
                     </li>
                 </ul>
             </section>

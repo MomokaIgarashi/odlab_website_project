@@ -1,1 +1,208 @@
 
+@charset "UTF-8";
+
+h1,
+h2,
+h3,
+h4,
+p {
+    font-family: "Hiragino Mincho Pro";
+}
+
+ul {
+    padding: 0;
+}
+
+.members-page__title {
+    /* font-family: "Hiragino"; */
+    font-weight: 700;
+    font-size: 4.8rem;
+    margin: 9.1rem 0 8.2rem;
+    padding-left: 14.2rem;
+}
+
+.members-page-backgroundimage {
+    height: auto;
+    width: 100%;
+}
+
+.members-page__top {
+    position: relative;
+}
+
+.members-top-outline {
+    position: absolute;
+    left: 212px;
+    top: 174px;
+}
+
+.members-page__top-outline--title {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    /* letter-spacing: 0.001em; */
+}
+
+.members-page__top-outline--title-additional {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.members-page__top-outline__jp-name {
+    font-size: 8.8rem;
+    line-height: 13.2rem;
+    margin: 2.4rem 0 2.6rem;
+    letter-spacing: 0.04em;
+}
+
+.members-page__top-outline__en-name {
+    font-family: "Quincy CF";
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.5125em;
+}
+
+.members-main {
+    display: flex;
+    flex-flow: row-reverse;
+    margin-top: 11.2%;
+}
+
+.members-page__main-outline {
+    margin: 0 260px 0 242px ;
+}
+
+.members-page__main-section--list {
+    margin-bottom: 7.2%;
+}
+
+.members-page__main-section__title {
+    font-weight: 700;
+    font-size: 2.6rem;
+    line-height: 3.9rem;
+}
+
+.members-page__main-section__career-detail,
+.members-page__main-section__strength,
+.members-page__main-section__field,
+.members-page__main-section__works,
+.members-page__main-section__puiblish{
+    padding-left: 11.8%;
+}
+
+.members-page__main-section__career-detail {
+    font-family: "YuGothic";
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.005em;
+}
+
+.members-page__main-section__strength-list {
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: "YuGothic";
+    line-height: 2.4rem;
+    border-bottom: 1px solid #eaeaea;
+    list-style: "-";
+    padding-left: 1.2rem;
+}
+
+.members-page__main-section__strength-list::marker {
+    color: #06847d;
+}
+
+.members-page__main-section__strength-list:last-child {
+    border-bottom: none;
+}
+
+.members-page__main-section__field {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.members-page__main-section__field-list {
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    margin: 0 4px 10px;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    font-weight: 700;
+    letter-spacing: 0.001em;
+    padding: .7rem .9rem;
+}
+
+.members-page__main-section__works-wrap {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+.members-page__main-section__works {
+    width: 30%;
+    margin-right: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.members-page__works-image {
+    margin-right: 5px;
+}
+
+.members-page__main-section__works-title {
+    overflow-wrap: normal;
+    width: 56%;
+    font-weight: 700;
+    line-height: 2.1rem;
+    letter-spacing: 0.001em;
+    font-size: 1.4rem;
+    font-family: "YuGothic";
+}
+
+.members-page__main-section__works-text {
+    letter-spacing: 0.001em;
+    line-height: 2.1rem;
+    font-size: 1.4rem;
+}
+
+.members-page__main-section__puiblish {
+    display: flex;
+}
+
+.members-page__main-section__puiblish-detail {
+    margin-left: 2.4rem;
+}
+
+.members-page__main-section__puiblish-title {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-family: "YuGothic";
+    letter-spacing: 0.0125em;
+}
+
+.members-page__main-section__puiblish-text-wrap {
+    margin-bottom: 15px;
+}
+
+.members-page__main-section__puiblish-text {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.0025em;
+    margin: 0;
+}
+
+.members-page__main-section__puiblish-link {
+    border: 1px solid;
+    font-family: "YuGothic";
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.0125em;
+    padding: 19px 86px 19px 63px;
+    border-radius: 70px;
+    margin-top: 15px;
+    display: block;
+}
+
+
+
