@@ -260,6 +260,22 @@
     line-height: 2rem;
 }
 
+/* ****Privacy Policy CSS******* */
+.privacy__inner{
+    margin-left: 10%;
+    margin-bottom: 8%;
+    padding-bottom: 3%;
+}
+
+.privacy--wrapper__complete{
+    width: 80%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    background-color: #ffffff;
+}
+
+
 @media (max-width: 600px) {
 
     .contact__main-title{

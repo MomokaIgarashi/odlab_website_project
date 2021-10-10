@@ -83,7 +83,7 @@
     </div>
 </div>
 
-<p class="contact__privacy--text">お問い合わせには、<a href="<?= esc_url(home_url('/contact/privacy'));?>"><span class="contact__privacy--menu">プライバシーポリシー</span></a>への同意が必要です。</p>
+<p class="contact__privacy--text">お問い合わせには、<a href="/privacy"><span class="contact__privacy--menu">プライバシーポリシー</span></a>への同意が必要です。</p>
 
 <div class="contact-button-wrapper">
 [mwform_submitButton name="confirm-submit" class="button contact-confirm-button" confirm_value="同意の上、入力内容を確認" submit_value="送信する"]
