@@ -1,6 +1,6 @@
 <div class="contact-list">
     <div class="contact-title-wrapper">
-        <p class="hissu">必須</p> <p class="contact-title">お問い合わせ種別</p>
+        <p class="hissu">必須</p> <p class="contact-title">お問い合わせ種別(複数選択可)</p>
     </div>
     <div class="contct-content-wrapper__customize">
         <div class="contact-category">

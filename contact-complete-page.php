@@ -10,7 +10,10 @@ Template Name: Contact Complete Page
 <div class="contact-form-wrapper">
 
     <div class="contact__menu--inner">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-process3.png" class="contact__image-process" alt="">
+        <picture>
+            <source media="(max-width: 600px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-process3-sp.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/contact-process3.png" class="contact__image-process" alt="">
+        </picture>
         <p class="contact__description__1">
         お問い合わせありがとうございました。<br>
         担当者より折り返しご連絡させていただきます。なお、返信<br>
