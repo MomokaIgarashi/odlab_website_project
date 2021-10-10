@@ -19,7 +19,7 @@ Template Name: Contact Confirmation Page
     <p class="contact-menu">お問い合わせ内容</p>
 
     <?php echo do_shortcode('[mwform_formkey key="19"]'); ?>
-
+    </div>
 </div>
 
 <?php get_footer(); 
