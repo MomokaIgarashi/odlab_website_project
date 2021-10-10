@@ -2,22 +2,22 @@
     <div class="contact-title-wrapper">
         <p class="hissu">必須</p> <p class="contact-title">お問い合わせ種別</p>
     </div>
-    <div class="contct-content-wrapper">
-        <div class="contact-category__consulting">
-            [mwform_checkbox name="category-check1" children="経営チームビルディング,経営の軸づくり(ビジョン・ミッション・パーパス),変革推進における経営サポート,ビジョン・ミッション・パーパスの社内浸透,対話の場づくり,組織開発支援,組織開発事務局支援,ダイバーシティ＆インクルージョン推進" separator="," vertically="true" class="category-check-box"]
+    <div class="contct-content-wrapper__customize">
+        <div class="contact-category">
+            [mwform_checkbox name="category-check" children="(コンサルティング)  経営チームビルディング,(コンサルティング)  経営の軸づくり(ビジョン・ミッション・パーパス),(コンサルティング)  変革推進における経営サポート,(コンサルティング)  ビジョン・ミッション・パーパスの社内浸透,(コンサルティング)  対話の場づくり,(コンサルティング)  組織開発支援,(コンサルティング)  組織開発事務局支援,(コンサルティング)  ダイバーシティ＆インクルージョン推進,(研修)  マネジメント研修,(研修)  変革型リーダー育成,(研修)  ODコーディネーター養成,(セミナー)  講演,(その他)  エグゼクティブ・コーチング,(その他)  キャリア支援,(その他)  その他" separator="," vertically="true" class="category-check-box"]
         </div>
 
-        <div class="contact-category__training">
-            [mwform_checkbox name="category-check2" children="マネジメント研修,変革型リーダー育成,ODコーディネーター養成" separator="," vertically="true" class="category-check-box"]
+        <!-- <div class="contact-category__training">
+            [mwform_checkbox name="category-check2" children="(研修)  マネジメント研修,(研修)  変革型リーダー育成,(研修)  ODコーディネーター養成" separator="," vertically="true" class="category-check-box"]
         </div>
 
         <div class="contact-category__seminar">
-            [mwform_checkbox name="category-check3" children="講演" separator="," vertically="true" class="category-check-box"]
+            [mwform_checkbox name="category-check3" children="(セミナー)  講演" separator="," vertically="true" class="category-check-box"]
         </div>
 
         <div class="contact-category__other">
-            [mwform_checkbox name="category-check4" children="エグゼクティブ・コーチング,キャリア支援,その他" separator="," vertically="true" class="category-check-box"]
-        </div>
+            [mwform_checkbox name="category-check4" children="(その他)  エグゼクティブ・コーチング,(その他)  キャリア支援,(その他)  その他" separator="," vertically="true" class="category-check-box"]
+        </div> -->
     </div>
 </div>
 
@@ -25,7 +25,7 @@
     <div class="contact-title-wrapper">
         <p class="hissu">必須</p> <p class="contact-title">お問い合わせ内容</p>
     </div>
-    <div class="contct-content-wrapper">
+    <div class="contct-content-wrapper__customize">
         [mwform_textarea name="content" cols="40" rows="10" placeholder="最大4000字まで" class="contact-content"]
     </div>
 </div>
@@ -97,8 +97,10 @@
 
 <p class="contact__privacy--text">お問い合わせには、<span class="contact__privacy--menu">プライバシーポリシー</span>への同意が必要です。</p>
 
+<div class="contact-button-wrapper">
 [mwform_submitButton name="confirm-submit" class="button contact-confirm-button" confirm_value="同意の上、入力内容を確認" submit_value="送信する"]
 
 [mwform_bback class="button contact-back-button" value="back"]修正する[/mwform_bback]
+</div>
 
 </div>

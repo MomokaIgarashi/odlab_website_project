@@ -5,6 +5,7 @@
     font-weight: bold;
     margin-left: 10%;
     padding: 5% 0;
+    font-family: "Hiragino Mincho Pro";
 }
 
 .contact-form-wrapper{
@@ -27,6 +28,7 @@
 .contact__description__1{
     font-size: 1.6rem;
     margin-bottom: 5%;
+    line-height: 2.4rem;
 }
 
 /* ↓コンタクトフォーム中身 */
@@ -39,7 +41,7 @@
     font-size: 1.6rem;
 }
 
-.mw_wp_form_confirm {
+.mw_wp_form_preview #text{
     font-size: 1.6rem;
     line-height: 2rem;
 }
@@ -55,11 +57,16 @@
 
 .contact-form__inner{
     margin-left: 10%;
+    margin-bottom: 8%;
+    padding-bottom: 3%;
 }
 
 .contact-menu{
     font-size: 2rem;
     font-weight: bold;
+    font-family: "Hiragino Mincho Pro";
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 .contact-list{
@@ -77,13 +84,26 @@
     width: 70%;
 }
 
+.contct-content-wrapper__customize{
+    width: 70%;
+    margin-top: 1%;
+}
+
 .contact-category-wrapper{
     width: 70%;
     display: flex;
+    margin-top: 1%;
 }
+
+/* .contact-category-wrapper{
+    width: 70%;
+    display: flex;
+} */
 
 .contact__category{
     margin-right: 3%;
+    width: 20%;
+    height: auto;
 }
 
 /* input.category-check-box{
@@ -165,33 +185,53 @@
     cursor: pointer;
 }
 
+.contact-button-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact-confirm-button{
-    width: 25%;
     text-align: center;
     margin: 5% 0;
     padding: 2% 3%;
     border-radius: 70px;
     background-color: #0AC8BD;
     color: #ffffff;
-    margin-left: 25%;
+    margin-right: 22.5%;
     border: none;
     font-size: 1.6rem;
+    box-sizing: unset;
+}
+
+.mw_wp_form_confirm .contact-confirm-button{
+    text-align: center;
+    margin: 5% 0;
+    padding: 2% 10%;
+    border-radius: 70px;
+    background-color: #0AC8BD;
+    color: #ffffff;
+    margin-right: 22.5%;
+    border: none;
+    font-size: 1.6rem;
+    box-sizing: unset;
 }
 
 .contact-back-button{
-    width: 25%;
     text-align: center;
     margin-bottom: 5%;
     padding: 2% 3%;
     border-radius: 70px;
     background-color: #949494;
     color: #ffffff;
-    margin-left: 25%;
+    /* margin-right: 22.5%; */
     border: none;
     font-size: 1.6rem;
+    box-sizing: unset;
+    writing-mode: inherit;
 }
 
-.contact-backtotop-button{
+.button-backtotop{
     margin: 5% 0;
     padding: 2% 5%;
     border-radius: 70px;
@@ -200,12 +240,38 @@
     margin-left: 25%;
     border: none;
     font-size: 1.6rem;
+    box-sizing: unset;
+    /* width: 20%; */
+    text-align: center;
 }
 
 .contact__error-pc{
     width: 75%;
     height: auto;
     margin: 5% 0 3% 10%;
+}
+
+.contact-form--wrapper__complete{
+    width: 80%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+    background-color: #ffffff;
+}
+
+.contact--complete__title{
+    font-size: 1.6rem ;
+    padding-top: 7%;
+    padding-bottom: 2%
+}
+
+.contact--complete__mail{
+    font-size: 1.6rem;
+    padding-bottom: 2%;
+}
+
+.contact--complete__description{
+    font-size: 1.4rem;
+    line-height: 2rem;
 }
 
 @media (max-width: 600px) {

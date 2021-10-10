@@ -21,7 +21,7 @@ Template Name: Contact Page
     <div class="contact-form__inner">
     <p class="contact-menu">お問い合わせ内容</p>
 
-    <div class="contact-list">
+    <!-- <div class="contact-list">
         <div class="contact-title-wrapper">
             <p class="hissu">必須</p> <p class="contact-title">お問い合わせ分類</p>
         </div>
@@ -31,7 +31,7 @@ Template Name: Contact Page
             <img class="contact__category" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/category-seminar-inactive.png" alt="">
             <img class="contact__category" src="<?php echo get_template_directory_uri(); ?>/assets/images/contact/category-others-inactive.png" alt="">
         </div>
-    </div>
+    </div> -->
 
     <?php echo do_shortcode('[mwform_formkey key="19"]'); ?>
 

@@ -18,14 +18,14 @@ Template Name: Contact Complete Page
         </p>
     </div>
 
-
     <div class="contact-form__inner">
-    <p class="contact-menu">お問い合わせ内容</p>
-
-    <?php echo do_shortcode('[mwform_formkey key="19"]'); ?>
-
-    <div class="button-backtotop">トップに戻る</div>
-
+        <div class="contact-form--wrapper__complete">
+            <?php echo do_shortcode('[mwform_formkey key="19"]'); ?>
+        </div>
+        <a href="<?= esc_url(home_url('/'));?>">
+            <p class="button-backtotop">トップに戻る</p>
+        </a>
+    </div>
 </div>
 
 <?php get_footer(); 
