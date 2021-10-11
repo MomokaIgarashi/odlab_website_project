@@ -9,6 +9,10 @@ a{
     color: inherit;
 }
 
+a:hover{
+    
+}
+
 li{
     list-style: none;
 }
