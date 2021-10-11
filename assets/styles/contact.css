@@ -5,6 +5,7 @@
     font-weight: bold;
     margin-left: 10%;
     padding: 5% 0;
+    font-family: "Hiragino Mincho Pro";
 }
 
 .contact-form-wrapper{
@@ -27,25 +28,19 @@
 .contact__description__1{
     font-size: 1.6rem;
     margin-bottom: 5%;
+    line-height: 2.4rem;
 }
 
 /* ↓コンタクトフォーム中身 */
 
-#text{
+.mw_wp_form_confirm .contct-content-wrapper{
     font-size: 1.6rem;
+    line-height: 5rem;
 }
 
-.error{
+.mw_wp_form_confirm .contct-content-wrapper__customize{
     font-size: 1.6rem;
-}
-
-.mw_wp_form_confirm {
-    font-size: 1.6rem;
-    line-height: 2rem;
-}
-
-.mw_wp_form_error {
-    font-size: 1.6rem;
+    line-height: 3rem;
 }
 
 .mw_wp_form_complete {
@@ -55,11 +50,16 @@
 
 .contact-form__inner{
     margin-left: 10%;
+    margin-bottom: 8%;
+    padding-bottom: 3%;
 }
 
 .contact-menu{
     font-size: 2rem;
     font-weight: bold;
+    font-family: "Hiragino Mincho Pro";
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 .contact-list{
@@ -75,21 +75,26 @@
 
 .contct-content-wrapper{
     width: 70%;
+    margin-right: 5%;
+}
+
+.contct-content-wrapper__customize{
+    width: 70%;
+    margin-top: 1%;
+    margin-right: 5%;
 }
 
 .contact-category-wrapper{
     width: 70%;
     display: flex;
+    margin-top: 1%;
 }
 
 .contact__category{
     margin-right: 3%;
+    width: 20%;
+    height: auto;
 }
-
-/* input.category-check-box{
-    color: #0AC8BD;
-    border: none;
-} */
 
 .mwform-checkbox-field{
     padding: 1% 0;
@@ -120,6 +125,7 @@
 .contact-title{
     font-size: 1.6rem;
     padding: 0 3%;
+    color: #121212;
 }
 
 .contact-box{
@@ -147,10 +153,12 @@
     border: #ffffff;
     border-radius: 4px;
     font-size: 1.6rem;
+    box-sizing: unset;
 }
 
 .contact__privacy--text{
-    margin-left: 18%;
+    text-align: center;
+    margin-right: 22.5%;
     font-size: 1.6rem;
     padding: 5% 0 2% 0;
 }
@@ -158,51 +166,290 @@
 .contact__privacy--menu{
     color: #0AC8BD;
     padding: 3% 0;
+    text-decoration:underline
 }
 
 .button{
     cursor: pointer;
 }
 
+.contact-button-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact-confirm-button{
-    width: 25%;
     text-align: center;
     margin: 5% 0;
     padding: 2% 3%;
     border-radius: 70px;
     background-color: #0AC8BD;
     color: #ffffff;
-    margin-left: 25%;
+    margin-right: 22.5%;
     border: none;
     font-size: 1.6rem;
+    box-sizing: unset;
+}
+
+.mw_wp_form_confirm .contact-confirm-button{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+    padding: 2% 10%;
+    border-radius: 70px;
+    background-color: #0AC8BD;
+    color: #ffffff;
+    margin-right: 22.5%;
+    border: none;
+    font-size: 1.6rem;
+    box-sizing: unset;
 }
 
 .contact-back-button{
-    width: 25%;
     text-align: center;
     margin-bottom: 5%;
-    padding: 2% 3%;
+    padding: 2% 10%;
     border-radius: 70px;
     background-color: #949494;
     color: #ffffff;
-    margin-left: 25%;
+    margin-right: 22.5%;
     border: none;
     font-size: 1.6rem;
+    box-sizing: unset;
 }
 
-.contact-backtotop-button{
-    margin: 5% 0;
+.button-backtotop{
+    margin-left: 24%;
     padding: 2% 5%;
     border-radius: 70px;
     background-color: #0AC8BD;
     color: #ffffff;
-    margin-left: 25%;
     border: none;
     font-size: 1.6rem;
+    box-sizing: unset;
+    width: 20%;
+    text-align: center;
 }
 
-.contact__error-pc{
+.contact__error-img{
     width: 75%;
     height: auto;
     margin: 5% 0 3% 10%;
+}
+
+.contact-form--wrapper__complete{
+    width: 80%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    background-color: #ffffff;
+}
+
+.contact--complete__title{
+    font-size: 1.6rem ;
+    padding-top: 7%;
+    padding-bottom: 2%
+}
+
+.contact--complete__mail{
+    font-size: 1.6rem;
+    padding-bottom: 2%;
+}
+
+.contact--complete__description{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+/* ****Privacy Policy CSS******* */
+.privacy__inner{
+    margin-left: 10%;
+    margin-bottom: 8%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.privacy--wrapper__complete{
+    width: 80%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    background-color: #ffffff;
+}
+
+.privacy--wrapper__complete__inner{
+    margin: 7.5%;
+}
+
+.privacy--text__title{
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 3% 0;
+}
+
+.privacy--text__content{
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.privacy--text__link{
+    text-decoration: underline;
+    font-size: 1.6rem;
+    padding-bottom: 0.5%;
+}
+
+.button-backto-contact{
+    display: block;
+    margin: auto;
+    padding: 3% 5%;
+    border-radius: 70px;
+    background-color: #0AC8BD;
+    color: #ffffff;
+    border: none;
+    font-size: 1.6rem;
+    box-sizing: unset;
+    width: 24%;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+
+    .contact__main-title{
+        font-size: 9vw;
+    }
+
+    .contact-form-wrapper{
+        width: 100vw;
+        margin-left: 0;
+    }
+
+    .contact__image-process{
+        width: 61vw;
+    }
+
+    .contact__menu--inner{
+        margin-right: 0;
+    }
+
+    .contact__description__1{
+        margin: 0 10%;
+    }
+
+    .contact-form__inner{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 5%;
+    }
+
+    .contact-list{
+        display: inherit;
+    }
+
+    .contact-title{
+        font-size: 4.2vw;
+    }
+
+    .contact-title-wrapper{
+        width: 100%;
+    }
+
+    .contct-content-wrapper__customize{
+        width: 100%;
+    }
+
+    .mwform-checkbox-field{
+        padding: 3% 0;
+    }
+
+    .contact-content{
+        width: 95%;
+    }
+
+    .contct-content-wrapper{
+        width: 100%;
+    }
+
+    .contact-box{
+        width: 95%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 4.2vw;
+    }
+
+    .select-box{
+        width: 95%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .contact__privacy--text{
+        text-align: center;
+        margin: 6% 5% 2% 5%;
+        font-size: 4.2vw;
+        line-height: 7vw;
+    }
+
+    .contact-confirm-button{
+        margin-right: 0;
+        padding: 7% 12.5%;
+    }
+
+    .contact-form-wrapper{
+        margin-bottom: 2%;
+    }
+
+    .vertical-item{
+        font-size: 4.2vw;
+        line-height: 7vw;
+    }
+
+    .mw_wp_form_confirm .contact-confirm-button{
+        margin-right: 0;
+        padding: 7% 32%;
+    }
+
+    .contact-back-button{
+        margin-right: 0;
+        padding: 7% 32%;
+    }
+
+    .contact-form--wrapper__complete{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .contact--complete__description{
+        font-size: 3.2vw;
+        margin: 3% 5%;
+        text-align: start;
+    }
+
+    .button-backtotop{
+        width: 70%;
+        padding: 7% 5%;
+        display: block;
+        margin: auto;
+    }
+
+    .contact__error-img{
+        width: 87%;
+        height: auto;
+        margin: 3% 6.5%;
+    }
+
+    .privacy__inner{
+        margin-left: 5%;
+    }
+
+    .privacy--wrapper__complete{
+        width: 95%;
+    }
+
+    .button-backto-contact{
+        width: 76%;
+        padding: 7% 3%;
+    }
 }
