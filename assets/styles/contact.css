@@ -266,15 +266,52 @@
 .privacy__inner{
     margin-left: 10%;
     margin-bottom: 8%;
+    padding-top: 5%;
     padding-bottom: 3%;
 }
 
 .privacy--wrapper__complete{
     width: 80%;
+    padding-top: 1%;
     padding-bottom: 5%;
     margin-right: 10%;
     margin-bottom: 7%;
     background-color: #ffffff;
+}
+
+.privacy--wrapper__complete__inner{
+    margin: 7.5%;
+}
+
+.privacy--text__title{
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 3% 0;
+}
+
+.privacy--text__content{
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.privacy--text__link{
+    text-decoration: underline;
+    font-size: 1.6rem;
+    padding-bottom: 0.5%;
+}
+
+.button-backto-contact{
+    display: block;
+    margin: auto;
+    padding: 3% 5%;
+    border-radius: 70px;
+    background-color: #0AC8BD;
+    color: #ffffff;
+    border: none;
+    font-size: 1.6rem;
+    box-sizing: unset;
+    width: 24%;
+    text-align: center;
 }
 
 
@@ -401,5 +438,18 @@
         width: 87%;
         height: auto;
         margin: 3% 6.5%;
+    }
+
+    .privacy__inner{
+        margin-left: 5%;
+    }
+
+    .privacy--wrapper__complete{
+        width: 95%;
+    }
+
+    .button-backto-contact{
+        width: 76%;
+        padding: 7% 3%;
     }
 }
