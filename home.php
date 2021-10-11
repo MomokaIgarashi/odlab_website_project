@@ -76,48 +76,45 @@
                                 <h4 class="members-page__main-section__puiblish-title">クロネコヤマト人の育て方</h4>
                                 <p class="members-page__main-section__puiblish-text">著者　水迫洋子</p>
                                 <p class="members-page__main-section__puiblish-text">発行　KADOKAWA／中経出版<br>（2015年）</p>
-                                <a href="https://www.amazon.co.jp/-/en/%E6%B0%B4%E8%BF%AB-%E6%B4%8B%E5%AD%90-ebook/dp/B00SSLFRXI/ref=sr_1_1?dchild=1&keywords=%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B3%E3%83%A4%E3%83%9E%E3%83%88%E3%81%AE%E4%BA%BA%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9&qid=1633749791&sr=8-1" target="_blank" class="members-page__main-section__puiblish-link">Amazon</a>
+                                <a href="https://www.amazon.co.jp/-/en/%E6%B0%B4%E8%BF%AB-%E6%B4%8B%E5%AD%90-ebook/dp/B00SSLFRXI/ref=sr_1_1?dchild=1&keywords=%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B3%E3%83%A4%E3%83%9E%E3%83%88%E3%81%AE%E4%BA%BA%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9&qid=1633749791&sr=8-1" target="_blank" class="members-page__main-section__puiblish-link">Amazon <i class="fas fa-external-link-alt"></i></a>
                             </span>
                         </div>
                     </li>
                 </ul>
             </section>
             <section class="members-page__main-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/leaf.png" class="members-page__main-image" alt="leaf">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/meeting1.png" class="members-page__main-image" alt="meeting1">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/meeting2.png" class="members-page__main-image" alt="meeting2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/leaf.png" class="members-page__main-image" alt="leaf" width="372" height="492">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/meeting1.png" class="members-page__main-image" alt="meeting1" width="372" height="304">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/meeting2.png" class="members-page__main-image" alt="meeting2" width="372" height="304">
             </section>
         </div>
         <div class="members-partner">
             <h1 class="members-partner__main-title">パートナー</h1>
-                <ul class="members-partner__outline">
-                    <li class="members-partner__outline-list">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner1.png" class="members-page__partner-image" alt="SCHOLAR CONSULT">
-                        <span class="members-partner__profile">
-                            <h5 class="members-partner__title members-partner__title-scholar">パートナー</h5>
-                            <p class="members-partner__js-name">スコラ・コンサルタント</p>
-                            <p class="members-partner__en-name">SCHOLAR CONSULT</p>
-                            <p class="members-partner__detail">組織風土の変革、新しい組織文化の創造をサポートするスコラ・コンサルト<br>組織風土改革のパイオニアとして、大企業から中小企業までの組織の変革をご支援いたします。</p>
-                        </span>
-                    </li>
-                    <li class="members-partner__outline-list">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner2.png" class="members-page__partner-image" alt="FUJITA HARUNO">
-                        <span class="members-partner__profile">
-                            <h5 class="members-partner__title">パートナー / テクスト株式会社 代表取締役</h5>
-                            <p class="members-partner__js-name">藤田 ハルノ</p>
-                            <p class="members-partner__en-name">FUJITA HARUNO</p>
-                            <p class="members-partner__detail-fujita">国際基督教大学 教養学部 国際関係学科を卒業後、知的資本経営を掲げる株式会社 ICMG にコンサルタント職として入社。
-                                一般社団法人 Japan Innovation Network の立ち上げ、企業の新規事業創造エコシステムのデザインプロジェクトに関わったのち、
-                                ミラノにある大学院ドムスアカデミーのビジネスデザイン修士へ留学。
-                                その後、言葉のにわづくりをコンセプトとして、テクスト株式会社を創業し、言葉を可視化することでコミュニケーションを支援するグラフィックスキルや、
-                                複雑な関係性を紐解くコンステーレーションといったアプローチを用いてファシリテーターとして活動。</p>
-                        </span>
-                        </li>
-                </ul>
+            <ul class="members-partner__outline">
+                <li class="members-partner__outline-list">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner1.png" class="members-page__partner-image" alt="SCHOLAR CONSULT">
+                    <span class="members-partner__profile">
+                        <h5 class="members-partner__title members-partner__title-scholar">パートナー</h5>
+                        <p class="members-partner__js-name">スコラ・コンサルタント</p>
+                        <p class="members-partner__en-name">SCHOLAR CONSULT</p>
+                        <p class="members-partner__detail">組織風土の変革、新しい組織文化の創造をサポートするスコラ・コンサルト<br>組織風土改革のパイオニアとして、大企業から中小企業までの組織の変革をご支援いたします。</p>
+                    </span>
+                </li>
+                <li class="members-partner__outline-list">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner2.png" class="members-page__partner-image" alt="FUJITA HARUNO">
+                    <span class="members-partner__profile">
+                        <h5 class="members-partner__title">パートナー / テクスト株式会社 代表取締役</h5>
+                        <p class="members-partner__js-name">藤田 ハルノ</p>
+                        <p class="members-partner__en-name">FUJITA HARUNO</p>
+                        <p class="members-partner__detail-fujita">国際基督教大学 教養学部 国際関係学科を卒業後、知的資本経営を掲げる株式会社 ICMG にコンサルタント職として入社。
+                            一般社団法人 Japan Innovation Network の立ち上げ、企業の新規事業創造エコシステムのデザインプロジェクトに関わったのち、
+                            ミラノにある大学院ドムスアカデミーのビジネスデザイン修士へ留学。
+                            その後、言葉のにわづくりをコンセプトとして、テクスト株式会社を創業し、言葉を可視化することでコミュニケーションを支援するグラフィックスキルや、
+                            複雑な関係性を紐解くコンステーレーションといったアプローチを用いてファシリテーターとして活動。</p>
+                    </span>
+                </li>
+            </ul>
         <div>
-        
-
-
     </div>
 
 

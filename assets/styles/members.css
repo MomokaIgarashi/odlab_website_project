@@ -5,6 +5,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p {
     font-family: "Hiragino Mincho Pro";
 }
@@ -14,11 +15,10 @@ ul {
 }
 
 .members-page__title {
-    /* font-family: "Hiragino"; */
     font-weight: 700;
     font-size: 4.8rem;
-    margin: 9.1rem 0 8.2rem;
-    padding-left: 14.2rem;
+    margin: 4% 0;
+    padding-left: 9.8%
 }
 
 .members-page-backgroundimage {
@@ -32,14 +32,13 @@ ul {
 
 .members-top-outline {
     position: absolute;
-    left: 212px;
-    top: 174px;
+    left: 18%;
+    top: 30%;
 }
 
 .members-page__top-outline--title {
     font-size: 1.4rem;
     line-height: 2.7rem;
-    /* letter-spacing: 0.001em; */
 }
 
 .members-page__top-outline--title-additional {
@@ -49,16 +48,16 @@ ul {
 
 .members-page__top-outline__jp-name {
     font-size: 8.8rem;
-    line-height: 13.2rem;
-    margin: 2.4rem 0 2.6rem;
     letter-spacing: 0.04em;
+    line-height: 13.2rem;
+    margin: 4% 0 2%;
 }
 
 .members-page__top-outline__en-name {
     font-family: "Quincy CF";
     font-size: 1.3rem;
-    line-height: 1.6rem;
     letter-spacing: 0.5125em;
+    line-height: 1.6rem;
 }
 
 .members-main {
@@ -68,7 +67,7 @@ ul {
 }
 
 .members-page__main-outline {
-    margin: 0 260px 0 242px ;
+    margin: 0 20% 0 18% ;
 }
 
 .members-page__main-section--list {
@@ -76,8 +75,8 @@ ul {
 }
 
 .members-page__main-section__title {
-    font-weight: 700;
     font-size: 2.6rem;
+    font-weight: 700;
     line-height: 3.9rem;
 }
 
@@ -86,25 +85,25 @@ ul {
 .members-page__main-section__field,
 .members-page__main-section__works,
 .members-page__main-section__puiblish{
-    padding-left: 11.8%;
+    padding-left: 14%;
 }
 
 .members-page__main-section__career-detail {
     font-family: "YuGothic";
     font-weight: 500;
     font-size: 1.6rem;
-    line-height: 2.4rem;
     letter-spacing: 0.005em;
+    line-height: 2.4rem;
 }
 
 .members-page__main-section__strength-list {
+    border-bottom: 1px solid #eaeaea;
+    font-family: "YuGothic";
     font-size: 1.6rem;
     font-weight: 700;
-    font-family: "YuGothic";
     line-height: 2.4rem;
-    border-bottom: 1px solid #eaeaea;
     list-style: "-";
-    padding-left: 1.2rem;
+    padding: 2% 0 2% 2%;
 }
 
 .members-page__main-section__strength-list::marker {
@@ -117,54 +116,52 @@ ul {
 
 .members-page__main-section__field {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 12%;
 }
 
 .members-page__main-section__field-list {
     border: 1px solid #bdbdbd;
     border-radius: 4px;
-    margin: 0 4px 10px;
     font-size: 1.4rem;
-    line-height: 2.1rem;
     font-weight: 700;
-    letter-spacing: 0.001em;
+    line-height: 2.1rem;
+    margin: 0 .8% 2%;
     padding: .7rem .9rem;
 }
 
 .members-page__main-section__works-wrap {
     display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
 .members-page__main-section__works {
-    width: 30%;
-    margin-right: 24px;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     align-items: flex-start;
+    width: 36%;
 }
 
 .members-page__works-image {
-    margin-right: 5px;
+    margin-right: 2%;
 }
 
 .members-page__main-section__works-title {
-    overflow-wrap: normal;
-    width: 58%;
+    width: 60%;
     font-weight: 700;
     line-height: 2.1rem;
-    letter-spacing: 0.001em;
     font-size: 1.4rem;
     font-family: "YuGothic";
+    margin-top: 0;
 }
 
 .members-page__main-section__works-text {
-    letter-spacing: 0.001em;
-    line-height: 2.1rem;
     font-size: 1.4rem;
+    line-height: 2.1rem;
+    margin: 0 0 12%;
+    width: 86%;
 }
 
 .members-page__main-section__puiblish {
@@ -172,7 +169,7 @@ ul {
 }
 
 .members-page__main-section__puiblish-detail {
-    margin-left: 2.4rem;
+    margin-left: 4%;
 }
 
 .members-page__main-section__puiblish-title {
@@ -189,52 +186,45 @@ ul {
 .members-page__main-section__puiblish-text {
     font-size: 1.4rem;
     line-height: 2.1rem;
-    letter-spacing: 0.0025em;
     margin: 0;
 }
 
 .members-page__main-section__puiblish-link {
     border: 1px solid;
+    border-radius: 70px;
+    display: block;
     font-family: "YuGothic";
     font-size: 1.6rem;
     line-height: 2.4rem;
-    letter-spacing: 0.0125em;
-    padding: 19px 86px 19px 63px;
-    border-radius: 70px;
     margin-top: 15px;
-    display: block;
+    padding: 8% 10% 8% 28%;
 }
 
 .members-partner {
     background-color: #f2f7f6;
-    padding: 0 260px;
+    padding: 0 14%;
 }
 
 .members-partner__main-title {
     color: #848484;
     font-size: 2.4rem;
     line-height: 3.6rem;
-    letter-spacing: 0.0015em;
-    padding: 104px 0 45px;
+    padding: 8% 0 4%;
 }
 
 .members-partner__outline-list {
     display: flex;
-    margin-bottom: 54px;
     align-items: flex-start;
-}
-
-.members-page__partner-image {
-    height: auto;
+    margin-bottom: 5%;
 }
 
 .members-partner__profile {
-    margin-left: 32px;
-    font-family: "Hiragino Mincho Pro";
     color: #333;
+    font-family: "Hiragino Mincho Pro";
     font-size: 1.4rem;
     line-height: 2.1rem;
     letter-spacing: 0.0025em;
+    margin-left: 32px;
 }
 
 .members-partner__title {
@@ -247,20 +237,18 @@ ul {
 
 .members-partner__js-name {
     font-size: 2rem;
+    font-weight: 700;
     line-height: 3rem;
     letter-spacing: 0.0015em;
-    font-weight: 700;
     margin: 0;
 }
 
 .members-partner__en-name {
-    line-height: 1.5rem;
-    letter-spacing: 0.0015em;
     margin: 0;
 }
 
 .members-partner__detail {
-    margin-top: 8px;
+    margin-top: 2%;
 }
 
 .members-partner__detail-fujita {
