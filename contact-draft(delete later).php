@@ -4,7 +4,7 @@
     </div>
     <div class="contct-content-wrapper__customize">
         <div class="contact-category">
-            [mwform_checkbox name="category-check" children="(コンサルティング)経営チームビルディング,(コンサルティング)経営の軸づくり(ビジョン・ミッション・パーパス),(コンサルティング)変革推進における経営サポート,(コンサルティング)ビジョン・ミッション・パーパスの社内浸透,(コンサルティング)対話の場づくり,(コンサルティング)組織開発支援,(コンサルティング)組織開発事務局支援,(コンサルティング)ダイバーシティ＆インクルージョン推進,(研修)マネジメント研修,(研修)変革型リーダー育成,(研修)ODコーディネーター養成,(セミナー)講演,(その他)エグゼクティブ・コーチング,(その他)キャリア支援,(その他)その他" separator="," vertically="true" class="category-check-box"]
+            [mwform_checkbox name="category-check" children="経営チームビルディング,経営の軸づくり(ビジョン・ミッション・パーパス),変革推進における経営サポート,ビジョン・ミッション・パーパスの社内浸透,対話の場づくり,組織開発支援,組織開発事務局支援,ダイバーシティ＆インクルージョン推進,マネジメント研修,変革型リーダー育成,ODコーディネーター養成,講演,エグゼクティブ・コーチング,キャリア支援,その他" separator="," vertically="true" class="category-check-box"]
         </div>
     </div>
 </div>
@@ -61,7 +61,7 @@
         <p class="hissu">必須</p> <p class="contact-title">電話番号</p>
     </div>
     <div class="contct-content-wrapper">
-        [mwform_text name="phone" size="" placeholder="03-0000-0000" class="contact-box"] 
+        [mwform_text name="phone" size="" placeholder="09012345678" class="contact-box"] 
     </div>
 </div>
 
@@ -83,7 +83,7 @@
     </div>
 </div>
 
-<p class="contact__privacy--text">お問い合わせには、<a href="/privacy"><span class="contact__privacy--menu">プライバシーポリシー</span></a>への同意が必要です。</p>
+<p class="contact__privacy--text">お問い合わせには、<a href="/privacy" target="blank"><span class="contact__privacy--menu">プライバシーポリシー</span></a>への同意が必要です。</p>
 
 <div class="contact-button-wrapper">
 [mwform_submitButton name="confirm-submit" class="button contact-confirm-button" confirm_value="同意の上、入力内容を確認" submit_value="送信する"]

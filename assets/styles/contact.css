@@ -75,6 +75,7 @@
 
 .contct-content-wrapper{
     width: 70%;
+    margin-right: 5%;
 }
 
 .contct-content-wrapper__customize{
@@ -156,7 +157,8 @@
 }
 
 .contact__privacy--text{
-    margin-left: 18%;
+    text-align: center;
+    margin-right: 22.5%;
     font-size: 1.6rem;
     padding: 5% 0 2% 0;
 }
