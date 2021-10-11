@@ -8,10 +8,16 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/top-pc.png" class="members-page-backgroundimage" alt="ceo-image">
             </picture>
             <div class="members-top-outline">
-                <h1 class="members-page__top-outline--title">OD Lab合同会社代表</h1>
-                <h2 class="members-page__top-outline--title-additional">Organization Development　Network Japan理事<br>株式会社　スコラ・コンサルト　パートナー</h2>
-                <p class="members-page__top-outline__jp-name">水迫　洋子</p>
-                <p class="members-page__top-outline__en-name">MIZUSAKO YOKO</p>
+                <span class="members-top-outline--sp-wrap">
+                    <h1 class="members-page__top-outline--title">OD Lab合同会社代表</h1>
+                    <h2 class="members-page__top-outline--title-additional">Organization Development　Network Japan理事<br>株式会社　スコラ・コンサルト　パートナー</h2>
+                </span>
+                <span class="members-top-outline--sp-wrap">
+                    <p class="members-page__top-outline__jp-name">水迫　洋子</p>
+                </span>
+                <span class="members-top-outline--sp-wrap">
+                    <p class="members-page__top-outline__en-name">MIZUSAKO YOKO</p>
+                </span>
             </div>
         </div>
         <div class="members-main">

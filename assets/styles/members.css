@@ -75,6 +75,7 @@ ul {
 }
 
 .members-page__main-section__title {
+    color: #5d5d5d;
     font-size: 2.6rem;
     font-weight: 700;
     line-height: 3.9rem;
@@ -84,7 +85,7 @@ ul {
 .members-page__main-section__strength,
 .members-page__main-section__field,
 .members-page__main-section__works,
-.members-page__main-section__puiblish{
+.members-page__main-section__puiblish {
     padding-left: 14%;
 }
 
@@ -253,4 +254,60 @@ ul {
 
 .members-partner__detail-fujita {
     margin-top: 4%;
+}
+
+
+/* ----- SP ----- */
+
+@media (max-width: 600px) {
+    .members-page__title {
+        margin: 5% 0 5%;
+    }
+
+    .members-top-outline {
+        left: 8%;
+        top: 84%;
+    }
+
+    .members-top-outline {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .members-main {
+        margin-top: 40%;
+        display: block;
+    }
+
+    .members-page__main-outline {
+        margin: 0 6%;
+    }
+
+    .members-page__main-section__career-detail,
+    .members-page__main-section__strength,
+    .members-page__main-section__field,
+    .members-page__main-section__works,
+    .members-page__main-section__puiblish {
+        padding: 0;
+    }
+
+    .members-page__main-section__works-wrap {
+        display: block;
+    }
+
+    .members-page__main-section__works {
+        width: 100%;
+    }
+    .members-page__main-section__works-title {
+        margin: auto 0;
+    }
+    .members-page__main-section__works-text {
+        margin: 2% 0 4%;
+    }
+
+    .members-page__main-image {
+        width: 96%;
+        object-fit: cover;
+        margin-left: 4%;
+    }
 }
