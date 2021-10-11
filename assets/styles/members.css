@@ -310,4 +310,8 @@ ul {
         object-fit: cover;
         margin-left: 4%;
     }
+
+    .members-partner__outline-list {
+        display: block;
+    }
 }
