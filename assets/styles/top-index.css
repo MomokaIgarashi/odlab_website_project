@@ -4,6 +4,10 @@ html {
     font-size: 62.5%; 
 }
 
+h1{
+    font-family: "Hiragino Mincho Pro";
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -129,21 +133,158 @@ body {
 .footer--main-nav-contact__text{
 }
 
+/* ******About page************************** */
+
 .top-index__main{
+    margin-left: 5%;
 }
 
-.top-index__main-backgroundimage{
-    width: 100%;
+.top-index__title{
+    font-size: 4.8rem;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.top-index__about-image{
+    width: 65%;
     height: auto;
-    position: relative;
+}
+
+.top-index__main__wrapper{
+    display: flex;
 }
 
 .top-index__main-description{
+    width: 35%;
+    margin-top: 10%;
+}
+
+.top-index__main-description-title{
+    font-size: 4.8rem;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.top-index__main-description-sentence{
+    font-size: 1.6rem;
+    margin: 0 5%;
+    line-height: 4rem;
+    letter-spacing: 0.05em;
+    font-style: none;
+    font-weight: 100;
+}
+
+.top-index__vision__wrapper{
+    display: flex;
+    margin: 10% 0;
+    justify-content: center;
+}
+
+.top-index__vision-description__title{
+    font-family: "Quincy CF";
+    font-size: 4.8rem;
+    letter-spacing: 0.05em;
+}
+
+.top-index__vision-image{
+    width: 53.8rem;
+    height: 27rem;
+    margin-top: 7%;
+    margin-right: 3%;
+}
+
+.top-index__vision-description{
+    width: 40%;
+    margin-right: 10%;
+}
+
+.top-index__about{
+    width: 100%;
+    background: #F2F7F6;
+    color: #848484;
+    padding: 5% 0;
+}
+
+.top-index__about__inner{
+    margin: 0 20%;
+}
+
+.top-index__about__title{
+    font-size: 2.4rem;
+}
+
+.top-index__about--table__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.top-index__about--table__menu{
+}
+
+.top-index__about--table__content{
+    color: #333333;
+}
+
+table {
+    font-size: 1.6rem;
+    width: 50%;
+}
+tr{
+    /* width: 15%; */
+}
+td {
+	padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media (max-width: 600px) {
+
+    .top-index__main{
+        display: block;
+    }
+
+    .top-index__title{
+        font-size: ;
+    }
+
+    .top-index__about-image{
+        width: 90%;
+    }
+    
+    .top-index__main__wrapper{
+        display: block;
+    }
+    
+    .top-index__main-description{
+        width: 35%;
+        margin-top: 10%;
+    }
+
+    .top-index__vision__wrapper{
+        display: block;
+    }
+
+    .top-index__vision-image{
+        width: 90vw;
+    }
+}
+
+/* ****************************************** */
+
+/* .top-index__main-backgroundimage{
+    width: 100%;
+    height: auto;
+    position: relative;
+} */
+
+/* .top-index__main-description{
     position: absolute;
     left: 9.8%;
     top: 20%; 
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
+    top: 50%;
+    transform: translateY(-50%);
     width: 44.6rem;
     height: 44.6rem;
     background:  #FFFFFF;
@@ -153,7 +294,7 @@ body {
 
 .top-index__main-description-title{
     font-size: 4.8rem;
-    /* font-size: 3.3vw; */
+    font-size: 3.3vw;
     letter-spacing: 0.05em;
     margin-top: 29.1%;
     text-align: center;
@@ -161,14 +302,14 @@ body {
 
 .top-index__main-description-sentence{
     font-size: 1.6rem;
-    /* font-size: 1.1vw; */
+    font-size: 1.1vw;
     margin: 0 5%;
     line-height: 3.5rem;
     letter-spacing: 0.05em;
     font-style: none;
     font-weight: 100;
     padding-bottom: 29.1%;
-}
+} */
 
 
 
@@ -216,7 +357,7 @@ body {
         width: 100vw;
     }
     
-    .top-index__main{
+    /* .top-index__main{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -243,7 +384,7 @@ body {
 
     .footer--contact__title{
         font-size: 8.5vw;
-    }
+    } */
 
     .footer--contact__description{
         font-size: 4.2vw;
