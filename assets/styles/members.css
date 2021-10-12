@@ -299,7 +299,6 @@ ul {
     
     .members-main {
         margin-top: 46vw;
-        /* flex-wrap: wrap; */
         flex-direction: column;
     }
 
@@ -311,6 +310,7 @@ ul {
     .members-page__main-outline-book {
         margin: 16vw 5vw 0;
     }
+    
     .members-page__main-image {
         order: 2;
     }
