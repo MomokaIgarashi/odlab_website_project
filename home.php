@@ -21,6 +21,11 @@
             </div>
         </div>
         <div class="members-main">
+            <section class="members-page__main-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/leaf.png" class="members-page__main-image" alt="leaf" width="372" height="492">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/meeting1.png" class="members-page__main-image" alt="meeting1" width="372" height="304">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/meeting2.png" class="members-page__main-image" alt="meeting2" width="372" height="304">
+            </section>
             <section class="members-page__main-outline">
                 <ul class="members-page__main-section">
                     <li class="members-page__main-section--list">
@@ -74,25 +79,24 @@
                             </div>
                         </span>
                     </li>
-                    <li >
-                        <h3 class="members-page__main-section__title">著書</h3>
-                        <div class="members-page__main-section__puiblish">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/book.png" class="members-page__publish-image" alt="book">
-                            <span class="members-page__main-section__puiblish-detail">
-                                <h4 class="members-page__main-section__puiblish-title">クロネコヤマト人の育て方</h4>
-                                <p class="members-page__main-section__puiblish-text">著者　水迫洋子</p>
-                                <p class="members-page__main-section__puiblish-text">発行　KADOKAWA／中経出版<br>（2015年）</p>
-                                <a href="https://www.amazon.co.jp/-/en/%E6%B0%B4%E8%BF%AB-%E6%B4%8B%E5%AD%90-ebook/dp/B00SSLFRXI/ref=sr_1_1?dchild=1&keywords=%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B3%E3%83%A4%E3%83%9E%E3%83%88%E3%81%AE%E4%BA%BA%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9&qid=1633749791&sr=8-1" target="_blank" class="members-page__main-section__puiblish-link">Amazon <i class="fas fa-external-link-alt"></i></a>
+                </ul>
+            </section>
+        </div>
+        <div class="members-page__main-outline-book">
+                <ul class="members-page__main-section">
+                    <li class="members-page__main-section--list">
+                        <h3 class="members-page__main-section__title-book">著書</h3>
+                        <div class="members-page__main-section__book">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/book.png" class="members-page__book-image" alt="book">
+                            <span class="members-page__main-section__book-detail">
+                                <h4 class="members-page__main-section__book-title">クロネコヤマト人の育て方</h4>
+                                <p class="members-page__main-section__book-text">著者　水迫洋子</p>
+                                <p class="members-page__main-section__book-text">発行　KADOKAWA／中経出版<br>（2015年）</p>
+                                <a href="https://www.amazon.co.jp/-/en/%E6%B0%B4%E8%BF%AB-%E6%B4%8B%E5%AD%90-ebook/dp/B00SSLFRXI/ref=sr_1_1?dchild=1&keywords=%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B3%E3%83%A4%E3%83%9E%E3%83%88%E3%81%AE%E4%BA%BA%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9&qid=1633749791&sr=8-1" target="_blank" class="members-page__main-section__book-link">Amazon <i class="fas fa-external-link-alt"></i></a>
                             </span>
                         </div>
                     </li>
                 </ul>
-            </section>
-            <section class="members-page__main-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/leaf.png" class="members-page__main-image" alt="leaf" width="372" height="492">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/meeting1.png" class="members-page__main-image" alt="meeting1" width="372" height="304">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/meeting2.png" class="members-page__main-image" alt="meeting2" width="372" height="304">
-            </section>
         </div>
         <div class="members-partner">
             <h1 class="members-partner__main-title">パートナー</h1>

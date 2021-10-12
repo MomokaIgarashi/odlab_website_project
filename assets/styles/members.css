@@ -62,12 +62,24 @@ ul {
 
 .members-main {
     display: flex;
-    flex-flow: row-reverse;
     margin-top: 11.2%;
 }
 
 .members-page__main-outline {
-    margin: 0 20% 0 18% ;
+    margin: 0 20% 0 18%;
+}
+
+.members-page__main-outline-book {
+    margin-left: 40%;
+}
+
+.members-page__main-section__title-book {
+    color: #848484;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+.members-page__main-section__book {
+    padding-left: 10%;
 }
 
 .members-page__main-section--list {
@@ -84,8 +96,7 @@ ul {
 .members-page__main-section__career-detail,
 .members-page__main-section__strength,
 .members-page__main-section__field,
-.members-page__main-section__works,
-.members-page__main-section__puiblish {
+.members-page__main-section__works {
     padding-left: 14%;
 }
 
@@ -165,32 +176,32 @@ ul {
     width: 86%;
 }
 
-.members-page__main-section__puiblish {
+.members-page__main-section__book {
     display: flex;
 }
 
-.members-page__main-section__puiblish-detail {
+.members-page__main-section__book-detail {
     margin-left: 4%;
 }
 
-.members-page__main-section__puiblish-title {
+.members-page__main-section__book-title {
     font-size: 1.6rem;
     line-height: 2.4rem;
     font-family: "YuGothic";
     letter-spacing: 0.0125em;
 }
 
-.members-page__main-section__puiblish-text-wrap {
+.members-page__main-section__book-text-wrap {
     margin-bottom: 15pmembers-page__main-section__puiblish-linkx;
 }
 
-.members-page__main-section__puiblish-text {
+.members-page__main-section__book-text {
     font-size: 1.4rem;
     line-height: 2.1rem;
     margin: 0;
 }
 
-.members-page__main-section__puiblish-link {
+.members-page__main-section__book-link {
     border: 1px solid;
     border-radius: 70px;
     display: block;
@@ -288,11 +299,20 @@ ul {
     
     .members-main {
         margin-top: 46vw;
-        display: block;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
     }
 
     .members-page__main-outline {
         margin: 0 5vw;
+        order: 1;
+    }
+
+    .members-page__main-outline-book {
+        margin: 16vw 5vw 0;
+    }
+    .members-page__main-image {
+        order: 2;
     }
 
     .members-page__main-section__career-detail,
@@ -325,14 +345,14 @@ ul {
         margin: 2vw 0 2vw 4vw;
     }
 
-    .members-page__main-section__puiblish {
+    .members-page__main-section__book {
         display: block;
-        margin-left: 18vw;
+        margin: 0 12vw;
     }
 
-    .members-page__main-section__puiblish-link {
-        padding: 7vw 12vw 7vw 22vw;
-        margin: 4vw 10vw 13vw 0;
+    .members-page__main-section__book-link {
+        padding: 7vw 12vw 7vw 17vw;
+        margin: 4vw 0 8vw 0;
     }
 
     .members-page__main-image {
