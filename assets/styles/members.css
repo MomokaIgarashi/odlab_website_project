@@ -181,7 +181,7 @@ ul {
 }
 
 .members-page__main-section__puiblish-text-wrap {
-    margin-bottom: 15px;
+    margin-bottom: 15pmembers-page__main-section__puiblish-linkx;
 }
 
 .members-page__main-section__puiblish-text {
@@ -261,26 +261,38 @@ ul {
 
 @media (max-width: 600px) {
     .members-page__title {
-        margin: 5% 0 5%;
+        margin: 14vw 0 9vw 5vw;
+        font-size: 9vw;
+        padding: 0;
     }
 
     .members-top-outline {
-        left: 8%;
-        top: 84%;
+        left: 6vw;
+        top: 114vw;
     }
 
     .members-top-outline {
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .members-page__top-outline__jp-name {
+        font-size: 17vw;
+        line-height: 19.6vw;
+        margin-top: 0;
+    }
+
+    .members-page__top-outline--title {
+        margin: 0;
+    }
     
     .members-main {
-        margin-top: 40%;
+        margin-top: 46vw;
         display: block;
     }
 
     .members-page__main-outline {
-        margin: 0 6%;
+        margin: 0 5vw;
     }
 
     .members-page__main-section__career-detail,
@@ -291,18 +303,36 @@ ul {
         padding: 0;
     }
 
+    .members-page__main-section__field-list {
+        margin: 0 .6vw 2vw 0;
+    }
+
     .members-page__main-section__works-wrap {
         display: block;
     }
 
     .members-page__main-section__works {
         width: 100%;
+        word-break: keep-all;
     }
+
     .members-page__main-section__works-title {
         margin: auto 0;
+        width: 70vw;
     }
+
     .members-page__main-section__works-text {
-        margin: 2% 0 4%;
+        margin: 2vw 0 2vw 4vw;
+    }
+
+    .members-page__main-section__puiblish {
+        display: block;
+        margin-left: 18vw;
+    }
+
+    .members-page__main-section__puiblish-link {
+        padding: 7vw 12vw 7vw 22vw;
+        margin: 4vw 10vw 13vw 0;
     }
 
     .members-page__main-image {
@@ -313,5 +343,35 @@ ul {
 
     .members-partner__outline-list {
         display: block;
+        margin-bottom: 10%;
+    }
+
+    .members-partner {
+        padding: 0 5%;
+    }
+
+    .members-partner__main-title {
+        padding: 12vw 0 4vw;
+    }
+
+    .members-page__partner-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .members-partner__js-name {
+        margin-bottom: 0;
+    }
+
+    .members-partner__en-name {
+        font-size: 2.6vw;
+    }
+
+    .members-partner__title {
+        font-size: 3.7vw;
+    }
+
+    .members-partner__title-fujita {
+        margin-top: 6vw;
     }
 }

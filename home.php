@@ -74,7 +74,7 @@
                             </div>
                         </span>
                     </li>
-                    <li>
+                    <li >
                         <h3 class="members-page__main-section__title">著書</h3>
                         <div class="members-page__main-section__puiblish">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/book.png" class="members-page__publish-image" alt="book">
@@ -109,7 +109,7 @@
                 <li class="members-partner__outline-list">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner2.png" class="members-page__partner-image" alt="FUJITA HARUNO">
                     <span class="members-partner__profile">
-                        <h5 class="members-partner__title">パートナー / テクスト株式会社 代表取締役</h5>
+                        <h5 class="members-partner__title members-partner__title-fujita">パートナー / テクスト株式会社 代表取締役</h5>
                         <p class="members-partner__js-name">藤田 ハルノ</p>
                         <p class="members-partner__en-name">FUJITA HARUNO</p>
                         <p class="members-partner__detail-fujita">国際基督教大学 教養学部 国際関係学科を卒業後、知的資本経営を掲げる株式会社 ICMG にコンサルタント職として入社。
