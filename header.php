@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <div class="body-wrap">
         <header>
             <div class="top-index__header-inner">
                 <img class="top-index__header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/main-logo.svg" alt="odlab-logo">
