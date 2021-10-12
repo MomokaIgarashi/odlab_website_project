@@ -19,6 +19,12 @@ function add_stylesheet() {
         array('reset'),
         '1.0'
     );
+    wp_enqueue_style(
+        'hamburger',
+        get_template_directory_uri().'/assets/styles/hamburger.css',
+        array('reset'),
+        '1.0'
+    );
 }
 add_action('wp_enqueue_scripts', 'add_stylesheet');
 
@@ -51,4 +57,15 @@ add_action('wp_enqueue_scripts', 'add_stylesheet');
     //     );
     // }
     // add_action('wp_enqueue_scripts','add_script');
+    
+    function custom_print_scripts() {
+        if (!is_admin()) {
+          //デフォルトjquery削除
+        wp_deregister_script('jquery');
+        
+          //GoogleCDNから読み込む
+        swp_enqueue_script('jquery-js', '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js' );
+        }
+    }
+    add_action('wp_print_scripts', 'custom_print_scripts');
 ?>

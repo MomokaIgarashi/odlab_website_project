@@ -10,26 +10,36 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/top-index.css" >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/contact.css" >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/members.css" >
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <meta name="keywords" content="OD Lab,組織開発">
 </head>
 
 <body>
         <header>
-            <div class="top-index__header-inner">
+
+        <!-- この部分がハンバーガーメニューのボタンになる -->
+        <span class="nav_toggle">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+
+            <div class="top-index__header-inner nav">
                 <img class="top-index__header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/main-logo.svg" alt="odlab-logo">
-                <ul class="top-index__header-nav">
-                    <li class="top-index__header-nav-list">
+                <ul class="top-index__header-nav nav_menu_ul">
+                    <li class="top-index__header-nav-list nav_menu_li">
                         <a href="<?= esc_url(home_url('/about'));?>">ODLabについて</a>
                     </li>
                     <!-- <li class="top-index__header-nav-list">サービス</li>
                     <li class="top-index__header-nav-list">事例紹介</li> -->
-                    <li class="top-index__header-nav-list">
+                    <li class="top-index__header-nav-list nav_menu_li">
                         <a href="<?= esc_url(home_url('/members'));?>">メンバー紹介</a>
                     </li>
                     <!-- <li class="top-index__header-nav-list">出版物</li>
                     <li class="top-index__header-nav-list">お知らせ</li> -->
-                    <li class="top-index__header-nav-contact">
+                    <li class="top-index__header-nav-contact nav_menu_li">
                         <a href="<?= esc_url(home_url('/contact'));?>">
                             <img class="top-index__header-nav-contact__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/header-mail-icon.svg" alt="header-contact">
                             <p class="top-index__header-nav-contact__text">お問い合わせ</p>
