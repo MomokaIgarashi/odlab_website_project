@@ -79,7 +79,7 @@ ul {
 
 .members-page__main-section__title-book {
     color: #848484;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     line-height: 3.6rem;
 }
 .members-page__main-section__book {
@@ -171,6 +171,7 @@ ul {
     font-size: 1.4rem;
     font-family: "YuGothic";
     margin-top: 0;
+    word-break: keep-all;
 }
 
 .members-page__main-section__works-text {
@@ -178,6 +179,11 @@ ul {
     line-height: 2.1rem;
     margin: 0 0 12%;
     width: 86%;
+    margin-top: 2%;
+}
+
+.works-text-last {
+    padding-bottom: 32%;
 }
 
 .members-page__main-section__book {
@@ -186,6 +192,7 @@ ul {
 
 .members-page__main-section__book-detail {
     margin-left: 4%;
+    padding-top: 6%;
 }
 
 .members-page__main-section__book-title {
@@ -218,7 +225,8 @@ ul {
 
 .members-partner {
     background-color: #f2f7f6;
-    padding: 0 14%;
+    padding: 0 14% 2%;
+    margin-bottom: 6%;
 }
 
 .members-partner__main-title {
@@ -397,5 +405,75 @@ ul {
 
     .members-partner__title-fujita {
         margin-top: 6vw;
+    }
+}
+
+/* ----- ipad用 ----- */
+@media screen and (min-width:601px) and ( max-width:1024px) {
+    .members-page__title {
+        font-size: 3.6vw;
+    }
+
+    .members-top-outline {
+        left: 7vw;
+        top: 13vw;
+    }
+
+    .members-page__top-outline--title {
+        font-size: 1.4vw;
+    }
+
+    .members-page__top-outline__jp-name {
+        font-size: 7.6vw;
+        line-height: 6vw;
+        margin: 2vw 0;
+    }
+
+    .members-page__top-outline--title-additional {
+        font-size: 1.3vw;
+        line-height: 2vw;
+    }
+
+    .members-page__main-outline {
+        margin: 0 4vw;
+    }
+
+    .members-page__main-image {
+        width: 30vw;
+        height: auto;
+    }
+
+    .members-page__main-section__title {
+        font-size: 2.8vw;
+    }
+
+    .members-page__main-section__strength-list {
+        font-size: 2vw;
+    }
+    
+    .members-page__main-section__works-text {
+        width: 40vw;
+        margin-top: 1vw;
+        /* word-break: keep-all; */
+    }
+
+    .works-text-last {
+        margin-bottom: 13vw;
+    }
+
+    .members-page__main-outline-book {
+        margin-left: 34vw;
+    }
+
+    .members-page__main-section__works-title {
+        word-break: keep-all;
+    }
+
+    .members-page__main-section__book-detail {
+        padding-top: 6vw;
+    }
+
+    .members-partner {
+        padding: 0 4vw;
     }
 }
