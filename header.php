@@ -19,9 +19,11 @@
     <div class="body-wrap">
         <header>
             <div class="top-index__header-inner">
-                <img class="top-index__header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/main-logo.svg" alt="odlab-logo">
+                <a href="<?= esc_url(home_url('/'));?>">
+                    <img class="top-index__header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/main-logo.svg" alt="odlab-logo">
+                </a>
                 <ul class="top-index__header-nav">
-                    <li class="top-index__header-nav-list">
+                    <li class="top-index__header-nav-list SP-header-none">
                         <a href="<?= esc_url(home_url('/about'));?>">ODLabについて</a>
                     </li>
                     <!-- <li class="top-index__header-nav-list">サービス</li>

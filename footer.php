@@ -17,9 +17,14 @@
             </li>
         </ul>
         <div class="footer--main-nav-contact">
-            <p class="footer--main-nav-contact-inner">
+            <!-- <p class="footer--main-nav-contact-inner">
                 <img class="footer--main-nav-contact__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/header-mail-icon.svg" alt="footer-contact">
                 <a href="<?= esc_url(home_url('/contact'));?>" class="footer--main-nav-contact__text">お問い合わせ</a>
+            </p> -->
+            <p class="footer--main-nav-contact-inner">
+                <a href="<?= esc_url(home_url('/contact'));?>">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/footer-contact.png" class="footer--temp__image" alt="">
+                </a>
             </p>
         </div>
     </div>

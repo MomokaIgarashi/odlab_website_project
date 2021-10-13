@@ -8,16 +8,17 @@ Template Name: About Us Page
             <div class="top-index__main">
                 <h1 class="top-index__title">OD Labについて</h1>
                 <div class="top-index__main__wrapper">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/about-image.png" class="top-index__about-image top-index-image__sp" alt="">                        
                     <div class="top-index__main-description">
                         <h1 class="top-index__main-description-title">自走する組織開発</h1>
                         <h2 class="top-index__main-description-sentence">
                             組織開発が、職場の中でマネージャーとメンバーでの「日常の配慮」になるよう、「職場の当たり前」として定着すること目指します。
                         </h2>
                     </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/about-image.png" class="top-index__about-image" alt="">                        
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/about-image.png" class="top-index__about-image top-index-image__pc" alt="">                        
                 </div>
                 <div class="top-index__vision__wrapper">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/vision-image.png" class="top-index__vision-image" alt="">                        
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/vision-image.png" class="top-index__vision-image top-index-image__pc" alt="">                        
                     <div class="top-index__vision-description">
                         <h1 class="top-index__vision-description__title">VISION</h1>
                         <h2 class="top-index__main-description-sentence top-index__vision">
@@ -27,6 +28,7 @@ Template Name: About Us Page
                             理念や志（パーパス）への共感をベースに、社員・顧客・社会から選ばれる組織となること。そのためにも、ひとりひとりが、自分らしい生き方を導き出し、その個性や能力を十分に発揮し、創造し合える組織となるよう、組織開発の伴走者として、全方位的なサポートを行います。
                         </h2>
                     </div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/vision-image.png" class="top-index__vision-image top-index-image__sp" alt="">                        
                 </div>
             </div>
             <div class="top-index__about">
