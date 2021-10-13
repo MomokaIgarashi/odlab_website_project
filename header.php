@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/top-index.css" >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/contact.css" >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/members.css" >
-    <script src="/assets/js/hamburger-menu.js"></script>
+    <script src="./assets/js/hamburger-menu.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     
@@ -75,8 +75,3 @@
     </div>
 
 </body>
-
-
-
-
-

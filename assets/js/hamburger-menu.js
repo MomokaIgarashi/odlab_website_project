@@ -12,7 +12,7 @@
 
 $(function() {
   $('.btn-gNav').on("click", function(){
-
+    console.log("success")
     $(this).toggleClass('open');
     $('#gNav').toggleClass('open');
   });

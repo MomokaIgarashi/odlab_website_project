@@ -47,25 +47,36 @@ add_action('wp_enqueue_scripts', 'add_stylesheet');
     // add_action('wp_enqueue_scripts', 'add_stylesheet');
 
 
-    // function add_script(){
-    //     wp_enqueue_script(
-    //         'last',
-    //         get_template_directory_uri().'assets/js/picturefill.js',
-    //         array(),
-    //         '1.0',
-    //         true
-    //     );
-    // }
-    // add_action('wp_enqueue_scripts','add_script');
-    
-    function custom_print_scripts() {
-        if (!is_admin()) {
-          //デフォルトjquery削除
-        wp_deregister_script('jquery');
-        
-          //GoogleCDNから読み込む
-        // swp_enqueue_script('jquery-js', '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js' );
-        }
+    function add_script(){
+        wp_enqueue_script(
+            'last',
+            get_template_directory_uri().'assets/js/hamburger-menu.js',
+            array(),
+            '1.0',
+            true
+        );
     }
-    add_action('wp_print_scripts', 'custom_print_scripts');
+    add_action('wp_enqueue_scripts','add_script');
+    
+    // function custom_print_scripts() {
+    //     if (!is_admin()) {
+    //       //デフォルトjquery削除
+    //     wp_deregister_script('jquery');
+        
+    //       //GoogleCDNから読み込む
+    //     // swp_enqueue_script('jquery-js', '//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js' );
+    //     }
+    // }
+    // add_action('wp_print_scripts', 'custom_print_scripts');
+
+    // function theme_scripts(){
+    //     $version = date('YmdHis');
+
+    //     wp_deregister_script('jquery');
+    //     wp_deregister_script('jquery-migrate');
+
+    //     wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', array(), null, true);
+    // }
+    // add_action('wp_enqueue_scripts','theme_scripts');
+
 ?>
