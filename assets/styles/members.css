@@ -1,0 +1,401 @@
+
+@charset "UTF-8";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: "Hiragino Mincho Pro";
+}
+
+ul {
+    padding: 0;
+}
+
+.body-wrap{
+    overflow: hidden;
+}
+
+.members-page__title {
+    font-weight: 700;
+    font-size: 4.8rem;
+    margin: 4% 0;
+    padding-left: 9.8%
+}
+
+.members-page-backgroundimage {
+    height: auto;
+    width: 100%;
+}
+
+.members-page__top {
+    position: relative;
+}
+
+.members-top-outline {
+    position: absolute;
+    left: 18%;
+    top: 30%;
+}
+
+.members-page__top-outline--title {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+}
+
+.members-page__top-outline--title-additional {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.members-page__top-outline__jp-name {
+    font-size: 8.8rem;
+    letter-spacing: 0.04em;
+    line-height: 13.2rem;
+    margin: 4% 0 2%;
+}
+
+.members-page__top-outline__en-name {
+    font-family: "Quincy CF";
+    font-size: 1.3rem;
+    letter-spacing: 0.5125em;
+    line-height: 1.6rem;
+}
+
+.members-main {
+    display: flex;
+    margin-top: 11.2%;
+}
+
+.members-page__main-outline {
+    margin: 0 20% 0 18%;
+}
+
+.members-page__main-outline-book {
+    margin-left: 40%;
+}
+
+.members-page__main-section__title-book {
+    color: #848484;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+}
+.members-page__main-section__book {
+    padding-left: 10%;
+}
+
+.members-page__main-section--list {
+    margin-bottom: 7.2%;
+}
+
+.members-page__main-section__title {
+    color: #5d5d5d;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 3.9rem;
+}
+
+.members-page__main-section__career-detail,
+.members-page__main-section__strength,
+.members-page__main-section__field,
+.members-page__main-section__works {
+    padding-left: 14%;
+}
+
+.members-page__main-section__career-detail {
+    font-family: "YuGothic";
+    font-weight: 500;
+    font-size: 1.6rem;
+    letter-spacing: 0.005em;
+    line-height: 2.4rem;
+}
+
+.members-page__main-section__strength-list {
+    border-bottom: 1px solid #eaeaea;
+    font-family: "YuGothic";
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    list-style: "-";
+    padding: 2% 0 2% 2%;
+}
+
+.members-page__main-section__strength-list::marker {
+    color: #06847d;
+}
+
+.members-page__main-section__strength-list:last-child {
+    border-bottom: none;
+}
+
+.members-page__main-section__field {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 12%;
+}
+
+.members-page__main-section__field-list {
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    margin: 0 .8% 2%;
+    padding: .7rem .9rem;
+}
+
+.members-page__main-section__works-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.members-page__main-section__works {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    align-items: flex-start;
+    width: 36%;
+}
+
+.members-page__works-image {
+    margin-right: 2%;
+}
+
+.members-page__main-section__works-title {
+    width: 60%;
+    font-weight: 700;
+    line-height: 2.1rem;
+    font-size: 1.4rem;
+    font-family: "YuGothic";
+    margin-top: 0;
+}
+
+.members-page__main-section__works-text {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    margin: 0 0 12%;
+    width: 86%;
+}
+
+.members-page__main-section__book {
+    display: flex;
+}
+
+.members-page__main-section__book-detail {
+    margin-left: 4%;
+}
+
+.members-page__main-section__book-title {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-family: "YuGothic";
+    letter-spacing: 0.0125em;
+}
+
+.members-page__main-section__book-text-wrap {
+    margin-bottom: 15pmembers-page__main-section__puiblish-linkx;
+}
+
+.members-page__main-section__book-text {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    margin: 0;
+}
+
+.members-page__main-section__book-link {
+    border: 1px solid;
+    border-radius: 70px;
+    display: block;
+    font-family: "YuGothic";
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-top: 15px;
+    padding: 8% 10% 8% 28%;
+}
+
+.members-partner {
+    background-color: #f2f7f6;
+    padding: 0 14%;
+}
+
+.members-partner__main-title {
+    color: #848484;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    padding: 8% 0 4%;
+}
+
+.members-partner__outline-list {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5%;
+}
+
+.members-partner__profile {
+    color: #333;
+    font-family: "Hiragino Mincho Pro";
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.0025em;
+    margin-left: 32px;
+}
+
+.members-partner__title {
+    margin: 0;
+}
+
+.members-partner__title-scholar {
+    margin-top: 8%;
+}
+
+.members-partner__js-name {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.0015em;
+    margin: 0;
+}
+
+.members-partner__en-name {
+    margin: 0;
+}
+
+.members-partner__detail {
+    margin-top: 2%;
+}
+
+.members-partner__detail-fujita {
+    margin-top: 4%;
+}
+
+
+/* ----- SP ----- */
+
+@media (max-width: 600px) {
+    .members-page__title {
+        margin: 14vw 0 9vw 5vw;
+        font-size: 9vw;
+        padding: 0;
+    }
+
+    .members-top-outline {
+        left: 6vw;
+        top: 114vw;
+    }
+
+    .members-top-outline {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .members-page__top-outline__jp-name {
+        font-size: 17vw;
+        line-height: 19.6vw;
+        margin-top: 0;
+    }
+
+    .members-page__top-outline--title {
+        margin: 0;
+    }
+    
+    .members-main {
+        margin-top: 46vw;
+        flex-direction: column;
+    }
+
+    .members-page__main-outline {
+        margin: 0 5vw;
+        order: 1;
+    }
+
+    .members-page__main-outline-book {
+        margin: 16vw 5vw 0;
+    }
+    
+    .members-page__main-image {
+        order: 2;
+    }
+
+    .members-page__main-section__career-detail,
+    .members-page__main-section__strength,
+    .members-page__main-section__field,
+    .members-page__main-section__works,
+    .members-page__main-section__puiblish {
+        padding: 0;
+    }
+
+    .members-page__main-section__field-list {
+        margin: 0 .6vw 2vw 0;
+    }
+
+    .members-page__main-section__works-wrap {
+        display: block;
+    }
+
+    .members-page__main-section__works {
+        width: 100%;
+        word-break: keep-all;
+    }
+
+    .members-page__main-section__works-title {
+        margin: auto 0;
+        width: 70vw;
+    }
+
+    .members-page__main-section__works-text {
+        margin: 2vw 0 2vw 4vw;
+    }
+
+    .members-page__main-section__book {
+        display: block;
+        margin: 0 12vw;
+    }
+
+    .members-page__main-section__book-link {
+        padding: 7vw 12vw 7vw 17vw;
+        margin: 4vw 0 8vw 0;
+    }
+
+    .members-page__main-image {
+        width: 96%;
+        object-fit: cover;
+        margin-left: 4%;
+    }
+
+    .members-partner__outline-list {
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .members-partner {
+        padding: 0 5%;
+    }
+
+    .members-partner__main-title {
+        padding: 12vw 0 4vw;
+    }
+
+    .members-page__partner-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .members-partner__js-name {
+        margin-bottom: 0;
+    }
+
+    .members-partner__en-name {
+        font-size: 2.6vw;
+    }
+
+    .members-partner__title {
+        font-size: 3.7vw;
+    }
+
+    .members-partner__title-fujita {
+        margin-top: 6vw;
+    }
+}

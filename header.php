@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/top-index.css" >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/contact.css" >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/members.css" >
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
     <meta name="keywords" content="OD Lab,組織開発">
 </head>
 
 <body>
+    <div class="body-wrap">
         <header>
             <div class="top-index__header-inner">
                 <img class="top-index__header-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/main-logo.svg" alt="odlab-logo">
