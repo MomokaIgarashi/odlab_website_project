@@ -14,6 +14,8 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
     <meta name="keywords" content="OD Lab,組織開発">
 </head>
 
