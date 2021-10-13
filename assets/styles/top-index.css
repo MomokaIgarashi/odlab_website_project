@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "Quincy CF";
+    src: url('/assets/fonts/QuincyCF.otf') format('otf');
+}
+
 html { 
     font-size: 62.5%; 
 }
@@ -191,6 +196,7 @@ body {
 
 .top-index__vision-description__title{
     font-family: "Quincy CF";
+    font-style: oblique;
     font-size: 4.8rem;
     letter-spacing: 0.05em;
     margin-left: 5%;
