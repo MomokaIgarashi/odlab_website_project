@@ -355,6 +355,12 @@ ul {
 
     .members-page__main-section__works-text {
         margin: 2vw 0 2vw 4vw;
+        word-break: break-all;
+        width: 80vw;
+    }
+    
+    .works-title-last {
+        word-break: break-all;
     }
 
     .members-page__main-section__book {
@@ -379,7 +385,7 @@ ul {
     }
 
     .members-partner {
-        padding: 0 5%;
+        padding: 0 5% 6vw;
     }
 
     .members-partner__main-title {
