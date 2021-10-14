@@ -78,7 +78,7 @@ Template Name: Members Page
                         </div>
                         <div class="members-page__main-section__works">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/works4.png" class="members-page__works-image" alt="works4">
-                            <h4 class="members-page__main-section__works-title">ダイバーシティ推進・ビジョン浸透・自律型組織</h4>
+                            <h4 class="members-page__main-section__works-title works-title-last">ダイバーシティ推進・ビジョン浸透・自律型組織</h4>
                             <p class="members-page__main-section__works-text works-text-last">IT企業、飲食業、物流、生活協同組合、総合人材サービス業</p>
                         </div>
                     </span>
