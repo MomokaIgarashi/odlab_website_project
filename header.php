@@ -32,8 +32,10 @@
                     <li class="top-index__header-nav-list">
                         <a href="<?= esc_url(home_url('/members'));?>">メンバー紹介</a>
                     </li>
-                    <!-- <li class="top-index__header-nav-list">出版物</li>
-                    <li class="top-index__header-nav-list">お知らせ</li> -->
+                    <li class="top-index__header-nav-list">
+                        <a href="<?= esc_url(home_url('/news'));?>">お知らせ</a>
+                    </li>
+                    <!-- <li class="top-index__header-nav-list">出版物</li> -->
                     <li class="top-index__header-nav-contact">
                         <a href="<?= esc_url(home_url('/contact'));?>">
                             <img class="top-index__header-nav-contact__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/header-mail-icon.svg" alt="header-contact">
