@@ -49,6 +49,7 @@
 
 .index--news__wrapper{
 	display: flex;
+    flex-wrap: wrap;
 	justify-content: center;
 	padding-bottom: 5%;
 }
@@ -59,7 +60,7 @@
 	background: #ffffff;
 	border-radius: 1rem;
 	padding-bottom: 2%;
-	margin: 0 2%;
+	margin: 2%;
 }
 
 .index--news--article--text__wrapper{
