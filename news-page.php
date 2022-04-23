@@ -8,7 +8,7 @@ Template Name: News Page
 <div class="news-index">
     <h1 class="news-index__title">お知らせ</h1>
     <div class="news-index-content">
-        <div class="news-index-content-category">
+        <!-- <div class="news-index-content-category">
             <?php
                 $args = array(
                     // 'parent' => 0,
@@ -26,7 +26,7 @@ Template Name: News Page
                     </a>
                 </li>
             <?php endforeach; ?>
-        </div>
+        </div> -->
 
         <div class="news-index-content-articles">
             <div class="index--news__wrapper">
