@@ -8,7 +8,25 @@ Template Name: News Page
 <div class="news-index">
     <h1 class="news-index__title">お知らせ</h1>
     <div class="news-index-content">
-        <div class="news-index-content-category"></div>
+        <div class="news-index-content-category">
+            <?php
+                $args = array(
+                    // 'parent' => 0,
+                    'cat' => $category->term_id,
+                    'orderby' => 'term_order',
+                    'order' => 'ASC'
+                );
+                $categories = get_categories( $args );
+            ?>
+
+            <?php foreach( $categories as $category ) : ?>
+                <li>
+                    <a href="<?php echo get_category_link( $category->term_id ); ?>">
+                        <?php echo $category->name; ?>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </div>
 
         <div class="news-index-content-articles">
             <div class="index--news__wrapper">
@@ -26,19 +44,20 @@ Template Name: News Page
                     <?php if ( has_post_thumbnail() ) { ?>
                         <?php the_post_thumbnail('post-thumbnail', array('class' => 'index--news--photo') ); ?>
                         <?php }else{ ?>
-                        <img class="index--news--photo" src="<?php echo get_template_directory_uri(); ?>/assets/images/post/thumbnail-news.JPG">
+                        <img class="index--news--photo" src="<?php echo get_template_directory_uri(); ?>/assets/images/news/no-thumbnais.png">
                         <?php }?>
                 </div>
                 <div class="index--news--article--text__wrapper">
+                    <button class="index--news--article--text__category">
+                        <?php the_category(array('class' => 'index--news--article--text__category') ); ?>
+                    </button>
                     <a href="<?php echo get_permalink(); ?>">
-                        <?php the_category(); ?>
                         <div class="index--news--article--text__title">
                             <?php the_title(); ?><br>
                         </div>
-                        <div class="index--news--article--text__content">
-                            <?php echo wp_trim_words(get_the_content(), 60, '…もっとみる' );?><br>
-                        </div>
-                        <?php the_time('Y/m/d'); ?>
+                        <p class="index--news--article--text__date">
+                            <?php the_time('Y/m/d'); ?>
+                        </p>
                     </a>
                 </div>
             </div>
