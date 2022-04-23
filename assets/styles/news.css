@@ -219,21 +219,45 @@
 
 @media screen and (max-width:768px) { 
 
+    .post--wrapper{
+        padding: 5% 0;
+        background: none;
+        margin-bottom: 5%;
+    }
+
+    .post--back__inner{
+        padding-top: 15%;
+        margin-left: 5vw;
+    }
+
+    .post-article--title__inner{
+        margin: 5vw;
+    }
+
 	.post--image__title{
 		width: 30vw;
 	}
 
 	.post--photo{
 		width: 90vw;
+        height: auto;
+        border-radius: 1rem;
 	}
 
 	.post--article__title{
-		font-size: 1.8rem;
-		margin-top: 10%;
+		font-size: 2rem;
+		margin-top: 5%;
+        font-weight: 700;
+        line-height: 3.5rem;
 	}
 
+    .post--article__date{
+        margin-bottom: 7%;
+    }
+    
+
 	.post--article__content{
-		margin: 0 2.5%;
+		margin: 5% 2.5%;
 	}
 
 	.post--article__button{
