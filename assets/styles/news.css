@@ -186,6 +186,7 @@
 }
 
 .post--article__content{
+    width: 80%;
 	margin: 10%;
 	line-height: 3rem;
     font-size: 1.6rem;
@@ -289,6 +290,7 @@
     
 
 	.post--article__content{
+        width: 95%;
 		margin: 5% 2.5%;
 	}
 

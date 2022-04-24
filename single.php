@@ -33,17 +33,17 @@
         </div>
     </div>
 
-    <div class="post--pagenation__wrapper">
+    <!-- <div class="post--pagenation__wrapper">
         <p class="post--pagenation__left">
-            <!-- <img class="post--pagenation__icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/news/back.png"> -->
+            <img class="post--pagenation__icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/news/back.png">
             <?php previous_post_link('%link', '前の記事へ'); ?>
         </p>
         <img class="post--pagenation__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/news/menu.png">
         <p class="post--pagenation__right">
             <?php next_post_link('%link', '次の記事へ'); ?>
-            <!-- <img class="post--pagenation__icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/news/next.png" > -->
+            <img class="post--pagenation__icon" src="<?php echo get_template_directory_uri(); ?>/assets/images/news/next.png" >
         </p>
-    </div>
+    </div> -->
 
 </div>
 
