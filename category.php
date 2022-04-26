@@ -7,38 +7,20 @@ Template Name: News Page
 
 <div class="news-index">
     <h1 class="news-index__title">お知らせ</h1>
+
+    <?php
+    $cat = get_the_category();
+    $catname = $cat[0]->cat_name;
+    ?>
+    <h1 class="page-title"><?php echo $catname; ?>一覧</h1>
+
     <div class="news-index-content">
-        <!-- <div class="news-index-content-category">
-            <?php
-                $args = array(
-                    // 'parent' => 0,
-                    'cat' => $category->term_id,
-                    'orderby' => 'term_order',
-                    'order' => 'ASC'
-                );
-                $categories = get_categories( $args );
-            ?>
-
-            <?php foreach( $categories as $category ) : ?>
-                <li>
-                    <a href="<?php echo get_category_link( $category->term_id ); ?>">
-                        <?php echo $category->name; ?>
-                    </a>
-                </li>
-            <?php endforeach; ?>
-        </div> -->
-
         <div class="news-index-content-articles">
             <div class="index--news__wrapper">
-            <?php
-                $args = array(
-                    'post_type' => 'post',
-                    'posts_per_page' => 6
-                );
-                $the_query = new WP_Query( $args );
-            if ( $the_query->have_posts() ) :
-            ?>
-            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+        <?php
+        if ( have_posts() ) :
+        ?>
+        <?php while ( have_posts() ) : the_post(); ?>
             <div class="index--news--article__wrapper">
                 <div class="index--news--article--image__wrapper">
                     <?php if ( has_post_thumbnail() ) { ?>
