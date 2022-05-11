@@ -53,7 +53,7 @@
                                 </tr>
                                 <tr>
                                     <td class="top-index__about--table__menu">設立</td>
-                                    <td class="top-index__about--table__content">2020年5月26日</td>
+                                    <td class="top-index__about--table__content">2020年5月25日</td>
                                 </tr>
                             </tbody>
                         </table>

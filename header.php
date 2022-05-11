@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<a href=""></a>
 <head>
     <meta charset="UTF-8">
     <meta name="title" content="組織開発コンサルティング OD Lab合同会社">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/top-index.css" >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/contact.css" >
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/members.css" >
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/news.css" >
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 
     <meta name="keywords" content="OD Lab,組織開発">
@@ -31,8 +33,10 @@
                     <li class="top-index__header-nav-list">
                         <a href="<?= esc_url(home_url('/members'));?>">メンバー紹介</a>
                     </li>
-                    <!-- <li class="top-index__header-nav-list">出版物</li>
-                    <li class="top-index__header-nav-list">お知らせ</li> -->
+                    <li class="top-index__header-nav-list">
+                        <a href="<?= esc_url(home_url('/news'));?>">お知らせ</a>
+                    </li>
+                    <!-- <li class="top-index__header-nav-list">出版物</li> -->
                     <li class="top-index__header-nav-contact">
                         <a href="<?= esc_url(home_url('/contact'));?>">
                             <img class="top-index__header-nav-contact__image" src="<?php echo get_template_directory_uri(); ?>/assets/images/top-index/header-mail-icon.svg" alt="header-contact">

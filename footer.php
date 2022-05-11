@@ -15,6 +15,9 @@
             <li class="footer--main-nav-list">
                 <a href="<?= esc_url(home_url('/members'));?>">メンバー紹介</a>
             </li>
+            <li class="footer--main-nav-list">
+                <a href="<?= esc_url(home_url('/news'));?>">お知らせ</a>
+            </li>
         </ul>
         <div class="footer--main-nav-contact">
             <!-- <p class="footer--main-nav-contact-inner">

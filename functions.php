@@ -19,6 +19,12 @@ function add_stylesheet() {
         array('reset'),
         '1.0'
     );
+    wp_enqueue_style(
+        'news',
+        get_template_directory_uri().'/assets/styles/news.css',
+        array('reset'),
+        '1.0'
+    );
 }
 add_action('wp_enqueue_scripts', 'add_stylesheet');
 
@@ -51,4 +57,7 @@ add_action('wp_enqueue_scripts', 'add_stylesheet');
     //     );
     // }
     // add_action('wp_enqueue_scripts','add_script');
+
+    add_theme_support('post-thumbnails');
 ?>
+
