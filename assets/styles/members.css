@@ -41,13 +41,17 @@ ul {
 }
 
 .members-page__top-outline--title {
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 2.7rem;
+    color: #121212;
+    font-weight: 300;
 }
 
 .members-page__top-outline--title-additional {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 2rem;
+    color: #333333;
+    font-weight: 300;
 }
 
 .members-page__top-outline__jp-name {
@@ -55,6 +59,7 @@ ul {
     letter-spacing: 0.04em;
     line-height: 13.2rem;
     margin: 4% 0 2%;
+    color: #333333;
 }
 
 .members-page__top-outline__en-name {
@@ -62,11 +67,13 @@ ul {
     font-size: 1.3rem;
     letter-spacing: 0.5125em;
     line-height: 1.6rem;
+    color: #121212;
 }
 
 .members-main {
     display: flex;
     margin-top: 11.2%;
+    color: #333333;
 }
 
 .members-page__main-outline {
@@ -307,10 +314,16 @@ ul {
 
     .members-page__top-outline--title {
         margin: 0;
+        font-size: 4.2vw;
+        margin-right: 7vw;
+    }
+
+    .members-page__top-outline--title-additional{
+        font-size: 3.7vw;
     }
     
     .members-main {
-        margin-top: 46vw;
+        margin-top: 52vw;
         flex-direction: column;
     }
 
