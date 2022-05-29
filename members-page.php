@@ -13,8 +13,8 @@ Template Name: Members Page
         </picture>
         <div class="members-top-outline">
             <span class="members-top-outline--sp-wrap">
-                <h1 class="members-page__top-outline--title">OD Lab合同会社代表</h1>
-                <h2 class="members-page__top-outline--title-additional">Organization Development　Network Japan理事<br>株式会社　スコラ・コンサルト　パートナー</h2>
+                <h1 class="members-page__top-outline--title">OD Lab合同会社代表<br>株式会社プラスアルファ・コンサルティング社外取締役</h1>
+                <h2 class="members-page__top-outline--title-additional">Organization Development Network Japan理事<br>株式会社　スコラ・コンサルト　パートナー</h2>
             </span>
             <span class="members-top-outline--sp-wrap">
                 <p class="members-page__top-outline__jp-name">水迫　洋子</p>
@@ -109,7 +109,7 @@ Template Name: Members Page
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner1.png" class="members-page__partner-image" alt="SCHOLAR CONSULT">
                 <span class="members-partner__profile">
                     <h5 class="members-partner__title members-partner__title-scholar">パートナー</h5>
-                    <p class="members-partner__js-name">スコラ・コンサルタント</p>
+                    <p class="members-partner__js-name">スコラ・コンサルト</p>
                     <p class="members-partner__en-name">SCHOLAR CONSULT</p>
                     <p class="members-partner__detail">組織風土の変革、新しい組織文化の創造をサポートするスコラ・コンサルト<br>組織風土改革のパイオニアとして、大企業から中小企業までの組織の変革をご支援いたします。</p>
                 </span>
