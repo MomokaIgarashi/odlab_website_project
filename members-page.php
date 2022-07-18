@@ -96,7 +96,7 @@ Template Name: Members Page
                             <h4 class="members-page__main-section__book-title">クロネコヤマト人の育て方</h4>
                             <p class="members-page__main-section__book-text">著者　水迫洋子</p>
                             <p class="members-page__main-section__book-text">発行　KADOKAWA／中経出版<br>（2015年）</p>
-                            <a href="https://www.amazon.co.jp/-/en/%E6%B0%B4%E8%BF%AB-%E6%B4%8B%E5%AD%90-ebook/dp/B00SSLFRXI/ref=sr_1_1?dchild=1&keywords=%E3%82%AF%E3%83%AD%E3%83%8D%E3%82%B3%E3%83%A4%E3%83%9E%E3%83%88%E3%81%AE%E4%BA%BA%E3%81%AE%E8%82%B2%E3%81%A6%E6%96%B9&qid=1633749791&sr=8-1" target="_blank" class="members-page__main-section__book-link">Amazon <i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://www.amazon.co.jp/dp/404600584X/" target="_blank" class="members-page__main-section__book-link">Amazon <i class="fas fa-external-link-alt"></i></a>
                         </span>
                     </div>
                 </li>
@@ -112,6 +112,49 @@ Template Name: Members Page
                     <p class="members-partner__js-name">スコラ・コンサルト</p>
                     <p class="members-partner__en-name">SCHOLAR CONSULT</p>
                     <p class="members-partner__detail">組織風土の変革、新しい組織文化の創造をサポートするスコラ・コンサルト<br>組織風土改革のパイオニアとして、大企業から中小企業までの組織の変革をご支援いたします。</p>
+                </span>
+            </li>
+            <li class="members-partner__outline-list">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner3.png" class="members-page__partner-image" alt="MAENO TAKASHI">
+                <span class="members-partner__profile">
+                    <h5 class="members-partner__title members-partner__title-fujita">
+                        パートナー / 應義塾大学大学院システムデザイン・マネジメント研究科教授 兼<br>
+                        同大学ウェルビーイングリサーチセンター長、一般社団法人ウェルビーイングデザイン 代表理事
+                    </h5>
+                    <p class="members-partner__js-name">前野 隆司</p>
+                    <p class="members-partner__en-name">MAENO TAKASHI</p>
+                    <p class="members-partner__detail-fujita">
+                        人々のウェルビーイング（幸せ、健康、福祉）を向上するための様々な施策および情報提供を行っている社団法人です。
+                        具体的には、オンラインサロンウェルビーイング大学、はたらく幸せ研究会、ウェルビーイングデザイン研究会、ウェルビーイングダイアログカード
+                        コミュニティーの運営や、幸福度診断ウェルビーイングサークル、はたらく人の幸せ／不幸せ診断などのアンケートの運用、ブログなどの情報提供を行っています。本活動では、働く人のウェルビーイングを向上するために、当法人が蓄積した多様な知見を生かしていく予定です。
+                    </p>
+                </span>
+            </li>            
+            <li class="members-partner__outline-list">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner4.png" class="members-page__partner-image" alt="MAENO MADOKA">
+                <span class="members-partner__profile">
+                    <h5 class="members-partner__title members-partner__title-fujita">パートナー / EVOL株式会社 代表取締役</h5>
+                    <p class="members-partner__js-name">前野 マドカ</p>
+                    <p class="members-partner__en-name">MAENO MADOKA</p>
+                    <p class="members-partner__detail-fujita">
+                        一般社団法人ウェルビーイングデザイン、慶應義塾大学大学院システムデザイン・マネジメント研究科前野隆司研究室などと連携しながら、
+                        ウェルビーイングに満ち溢れた世界をリードすることを目指して、コンサルティングや研修、講演などの活動を行っています。
+                        会社名のEVOLは、LOVEを反対から読んだものでもあり、革命（エボリューション）の頭の4文字でもあります。
+                        つまり、作りたい愛に満ちた世界からバックキャスティングして、世の中を革新していこうという志を表しています。
+                    </p>
+                </span>
+            </li>            
+            <li class="members-partner__outline-list">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/members-page/partner5.png" class="members-page__partner-image" alt="KOBAYASHI KOUJI">
+                <span class="members-partner__profile">
+                    <h5 class="members-partner__title members-partner__title-fujita">パートナー / 株式会社キズナキャスト 代表取締役</h5>
+                    <p class="members-partner__js-name">小林 広治</p>
+                    <p class="members-partner__en-name">KOBAYASHI KOUJI</p>
+                    <p class="members-partner__detail-fujita">
+                        「すべての人が、いきいき！わくわく働ける未来を創造する」をビジョンに
+                        掲げる、戦略支援専門のコンサルティング会社。特に近年は、時代変化が加速するいま、企業における多くの課題の本質は組織そのものにある、と考え、５年以上前から新時代型への組織変革に注力しています。
+                        「指示命令・競争型から自立・共創型へ」をキーワードに、人と組織と社会の変革を目指します。フジサンケイグループ「イノベーションズアイ」支援機関。
+                    </p>
                 </span>
             </li>
             <li class="members-partner__outline-list">
