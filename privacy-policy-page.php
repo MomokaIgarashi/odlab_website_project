@@ -41,9 +41,9 @@ Template Name: Privacy Policy Page
 
                 <p class="privacy--text__content">ご提供いただいた個人情報の内容に関し、照会／訂正／削除等を希望される場合は、当該お問合せ窓口までご請求ください。当該ご請求がお客様ご本人によるものであることが確認できた後、合理的な期間内に、お客様の個人情報を開示、訂正または削除等を行ないます。登録の照会、定性、削除等に関するお問い合わせは、以下の窓口で受け付けています。</p>
 
-                <a href="tel:03-3952-2706">
+                <!-- <a href="tel:03-3952-2706">
                     <p class="privacy--text__link">・03-3952-2706</p>
-                </a>
+                </a> -->
                 <a href="<?= esc_url(home_url('/contact'));?>">
                     <p class="privacy--text__link">・お問い合わせフォーム</p>
                 </a>
